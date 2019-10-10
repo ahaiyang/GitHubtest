@@ -1,0 +1,83 @@
+<Solution>
+  <PropertyGroup Name="DiceConquest" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="gamebigsecne">
+          <Image Name="hold.png" />
+          <Image Name="ico_hong.png" />
+          <Image Name="ico_huang.png" />
+          <Image Name="ico_lan.png" />
+          <Image Name="ico_sz.png" />
+          <Image Name="ico_yxgz.png" />
+          <Image Name="qipan.png" />
+          <Image Name="score_bg.png" />
+        </Folder>
+        <Folder Name="gamescene">
+          <Image Name="bg.png" />
+          <Image Name="ico_blue.png" />
+          <Image Name="ico_red.png" />
+          <Image Name="ico_sz.png" />
+          <Image Name="ico_yellow.png" />
+          <Image Name="ico_yxgz.png" />
+          <Image Name="logo.png" />
+          <Image Name="playscene_ico_leave.png" />
+          <Image Name="qipan.png" />
+          <Image Name="score_bg.png" />
+        </Folder>
+        <Folder Name="mainscene">
+          <Image Name="bg.png" />
+          <Image Name="bg2.png" />
+          <Image Name="btn_huang.png" />
+          <Image Name="btn_lan.png" />
+          <Image Name="btx_hdms.png" />
+          <Image Name="btx_ks.png" />
+          <Image Name="btx_sz.png" />
+          <Image Name="ico_yxsm.png" />
+        </Folder>
+        <Folder Name="model">
+          <Image Name="bg.png" />
+          <Image Name="ico_blue.png" />
+          <Image Name="ico_red.png" />
+          <Image Name="ico_sz.png" />
+          <Image Name="ico_yellow.png" />
+          <Image Name="ico_yxgz.png" />
+          <Image Name="logo.png" />
+          <Image Name="play 1.png" />
+          <Image Name="play 2.png" />
+          <Image Name="select_1.png" />
+          <Image Name="select_2.png" />
+          <Image Name="select_bg.png" />
+        </Folder>
+        <Folder Name="resoult">
+          <Image Name="bg.png" />
+          <Image Name="btn_huang.png" />
+          <Image Name="btn_lan.png" />
+          <Image Name="btx_home page.png" />
+          <Image Name="btx_play again.png" />
+          <Image Name="ico_x.png" />
+          <Image Name="tit_gameover.png" />
+          <Image Name="tit_hfsl.png" />
+          <Image Name="tit_huangfsl.png" />
+          <Image Name="tit_lfsl.png" />
+        </Folder>
+        <Folder Name="set">
+          <Image Name="btn_huakuai.png" />
+          <Image Name="ico_yinliang.png" />
+          <Image Name="ico_yinyue.png" />
+          <Image Name="set_bg.png" />
+          <Image Name="set_huang bg.png" />
+          <Image Name="set_huang.png" />
+          <Image Name="tit_sz.png" />
+        </Folder>
+        <Project Name="GameBigScene.csd" Type="Scene" />
+        <Project Name="GameScene.csd" Type="Scene" />
+        <Project Name="HelpLayer.csd" Type="Layer" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Project Name="ModelScene.csd" Type="Scene" />
+        <Project Name="ResoultLayer.csd" Type="Layer" />
+        <Project Name="SettingLayer.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
