@@ -1,0 +1,109 @@
+<Solution>
+  <PropertyGroup Name="mj_book" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="common">
+          <Image Name="alertbg.png" />
+          <Image Name="cancel.png" />
+          <Image Name="ok.png" />
+          <Image Name="opacity_0.png" />
+        </Folder>
+        <Folder Name="jiyigame1">
+          <Image Name="1052.png" />
+          <Image Name="1187.png" />
+          <Image Name="1506.png" />
+          <Image Name="cp0_1.png" />
+          <Image Name="cplz_1.png" />
+          <Project Name="HelpLayer.csd" Type="Layer" />
+          <Image Name="jiyi_bg.png" />
+          <Project Name="JiYiLayer.csd" Type="Layer" />
+          <Image Name="jy_blue.png" />
+          <Image Name="jy_img_xuanzhong.png" />
+          <Image Name="jy_info.png" />
+          <Image Name="jy_info_clicked.png" />
+          <Image Name="jy_opacity.png" />
+          <Image Name="jy_rank.png" />
+          <Image Name="jy_red.png" />
+          <Image Name="jy_soundoff.png" />
+          <Image Name="jy_soundon.png" />
+          <Image Name="line_1.png" />
+          <Project Name="MenuLayer.csd" Type="Layer" />
+          <Image Name="prompt.png" />
+          <Project Name="Setting.csd" Type="Layer" />
+          <Project Name="SettingLayer.csd" Type="Layer" />
+          <Image Name="shezhi.png" />
+          <Project Name="TipLayer.csd" Type="Layer" />
+          <Image Name="title_bg.png" />
+        </Folder>
+        <Folder Name="main">
+          <Folder Name="btn">
+            <Image Name="btn_biji.png" />
+            <Image Name="btn_biji_s.png" />
+            <Image Name="btn_bofang.png" />
+            <Image Name="btn_guanbi.png" />
+            <Image Name="btn_shangcheng.png" />
+            <Image Name="btn_shangcheng_s.png" />
+            <Image Name="btn_shipin.png" />
+            <Image Name="btn_shipin_s.png" />
+            <Image Name="btn_shoucang.png" />
+            <Image Name="btn_shoucang_s.png" />
+            <Image Name="btn_zhuye.png" />
+            <Image Name="btn_zhuye_s.png" />
+          </Folder>
+          <Folder Name="handle_logo">
+            <Image Name="0.png" />
+          </Folder>
+          <Folder Name="window_csb">
+            <Project Name="CaiLayer1.csd" Type="Layer" />
+          </Folder>
+          <Image Name="bg.png" />
+          <Image Name="bg_slider_off.png" />
+          <Image Name="bg_slider_on.png" />
+          <Image Name="btn_music_on.png" />
+          <Image Name="btn_sound_on.png" />
+          <Image Name="close_n.png" />
+          <Image Name="close_p.png" />
+          <Image Name="hl_guizhoujiexiangmeishi.png" />
+          <Image Name="main_bg.png" />
+          <Image Name="main_shop.png" />
+          <Image Name="pnlbg.png" />
+          <Image Name="setting_progress.png" />
+          <Image Name="setting_progress_bg.png" />
+          <Image Name="shezhi.png" />
+          <Image Name="shezhi2.png" />
+          <Image Name="shop_video.png" />
+          <Image Name="xian_fen.png" />
+          <Image Name="xian_hui.png" />
+          <Image Name="zhi_di.png" />
+        </Folder>
+        <Folder Name="rank">
+          <Image Name="icon_jilu.png" />
+          <Image Name="jilu_guanbi.png" />
+          <Image Name="jilu_hl_jilu.png" />
+          <Image Name="jilu_ico_1.png" />
+          <Image Name="jilu_ico_2.png" />
+          <Image Name="jilu_ico_3.png" />
+          <Image Name="jilu_list.png" />
+          <Image Name="jilu_pnl.png" />
+          <Image Name="jilu_pnl2.png" />
+          <Project Name="RankCell.csd" Type="Layer" />
+          <Project Name="RankLayer.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="tips">
+          <Image Name="tipsTitle.png" />
+          <Image Name="xl_alerl_bg.png" />
+          <Image Name="xl_alerl_btn_guanbi.png" />
+          <Image Name="xl_alerl_i_tou1.png" />
+        </Folder>
+        <Project Name="book.csd" Type="Layer" />
+        <Project Name="CreateRoomV3_Tips.csd" Type="Layer" />
+        <Project Name="Dialog.csd" Type="Layer" />
+        <Image Name="HelloWorld.png" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Project Name="NoteLayer.csd" Type="Layer" />
+        <Project Name="Setting.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

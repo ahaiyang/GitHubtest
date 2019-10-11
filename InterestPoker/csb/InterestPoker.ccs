@@ -1,0 +1,103 @@
+<Solution>
+  <PropertyGroup Name="InterestPoker" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="common">
+          <Image Name="jl_btn_xuanzhong.png" />
+          <Image Name="jl_btn_zhengchang.png" />
+          <Image Name="jl_btx_fou.png" />
+          <Image Name="jl_btx_shi.png" />
+          <Image Name="jl_close_x.png" />
+          <Image Name="jl_img_huadong.png" />
+          <Image Name="jl_img_shutiao.png" />
+          <Image Name="jl_pnl_tishi.png" />
+          <Image Name="jl_pnl2_diban.png" />
+        </Folder>
+        <Folder Name="font">
+          <TTF Name="DFYuanW7-GB2312.ttf" />
+        </Folder>
+        <Folder Name="gamescene">
+          <Image Name="ji_ico_yiwen.png" />
+          <Image Name="jl_bg_ditu.png" />
+          <Image Name="jl_btn_da.png" />
+          <Image Name="jl_btn_xiao.png" />
+          <Image Name="jl_btx_chongxin.png" />
+          <Image Name="jl_btx_chongxin2.png" />
+          <Image Name="jl_btx_fanhui.png" />
+          <Image Name="jl_btx_huipai.png" />
+          <Image Name="jl_btx_jieshu.png" />
+          <Image Name="jl_btx_zanting.png" />
+          <Image Name="jl_ico_naozhong.png" />
+          <Image Name="jl_ico_shezhi.png" />
+          <Image Name="jl_img_heitao.png" />
+          <Image Name="jl_img_hl_chenggong.png" />
+          <Image Name="jl_img_hongtao.png" />
+          <Image Name="jl_img_huazi.png" />
+          <Image Name="jl_img_pian.png" />
+          <Image Name="jl_img_shibai.png" />
+        </Folder>
+        <Folder Name="guanqia">
+          <Image Name="jl_hl_xuanze.png" />
+          <Image Name="lock_2.png" />
+          <Image Name="lock_3.png" />
+          <Image Name="lock_4.png" />
+          <Image Name="lock_5.png" />
+          <Image Name="lock_6.png" />
+          <Image Name="lock_7.png" />
+          <Image Name="lock_8.png" />
+          <Image Name="lv_1.png" />
+          <Image Name="lv_2.png" />
+          <Image Name="lv_3.png" />
+          <Image Name="lv_4.png" />
+          <Image Name="lv_5.png" />
+          <Image Name="lv_6.png" />
+          <Image Name="lv_7.png" />
+          <Image Name="lv_8.png" />
+        </Folder>
+        <Folder Name="mainscene">
+          <Image Name="add.png" />
+          <Image Name="jl_bg_ditu.png" />
+          <Image Name="jl_btn_yuan.png" />
+          <Image Name="jl_btx_bangzhu.png" />
+          <Image Name="jl_btx_jixu.png" />
+          <Image Name="jl_btx_kaishi.png" />
+          <Image Name="jl_btx_nandu.png" />
+          <Image Name="jl_hl_bangzhu.png" />
+          <Image Name="jl_hl_shezi.png" />
+          <Image Name="jl_hl_xuanze.png" />
+          <Image Name="jl_img_bai.png" />
+          <Image Name="jl_img_huang.png" />
+          <Image Name="jl_img_hui.png" />
+          <Image Name="jl_img_jiandan.png" />
+          <Image Name="jl_img_putong.png" />
+          <Image Name="jl_img_qingsong.png" />
+          <Image Name="jl_img_yiban.png" />
+          <Image Name="jl_logo_quwei.png" />
+          <Image Name="jl_pro_huang.png" />
+          <Image Name="jl_pro_hui.png" />
+          <Image Name="mainscene.jpg" />
+          <Image Name="nl_bg_xiao1.png" />
+          <Image Name="nl_bg_xiao2.png" />
+          <Image Name="shop_img_diamon_04.png" />
+        </Folder>
+        <Folder Name="shop">
+          <Image Name="shop_btn_bg.png" />
+          <Image Name="shop_btn_money.png" />
+          <Image Name="shop_btn_select_bg.png" />
+          <Image Name="shop_img_diamon_1.png" />
+          <Image Name="shop_img_diamon_2.png" />
+        </Folder>
+        <Project Name="GameScene.csd" Type="Scene" />
+        <Project Name="HelpLayer.csd" Type="Layer" />
+        <Project Name="LevelLayer.csd" Type="Layer" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Project Name="NoticeTip.csd" Type="Layer" />
+        <Project Name="SelectLevelLayer.csd" Type="Layer" />
+        <Project Name="SettingLayer.csd" Type="Layer" />
+        <Project Name="ShopLayer.csd" Type="Layer" />
+        <Project Name="SuccessLayer.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
