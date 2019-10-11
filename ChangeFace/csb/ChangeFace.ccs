@@ -1,0 +1,42 @@
+<Solution>
+  <PropertyGroup Name="ChangeFace" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="common">
+          <Image Name="bg.png" />
+          <Image Name="bg_1.png" />
+          <Image Name="bg_2.png" />
+          <Image Name="btn_jiantou1.png" />
+          <Image Name="btn_jiantou2.png" />
+          <Image Name="btn_lock.png" />
+          <Image Name="btn_shuaxin.png" />
+          <Image Name="btn_x.png" />
+          <Image Name="color_1.png" />
+          <Image Name="color_10.png" />
+          <Image Name="color_2.png" />
+          <Image Name="color_3.png" />
+          <Image Name="color_4.png" />
+          <Image Name="color_5.png" />
+          <Image Name="color_6.png" />
+          <Image Name="color_7.png" />
+          <Image Name="color_8.png" />
+          <Image Name="color_9.png" />
+          <Image Name="lian_1.png" />
+          <Image Name="lian_2.png" />
+          <Image Name="lian_3.png" />
+          <Image Name="lian_4.png" />
+          <Image Name="lian_5.png" />
+          <Image Name="lian_6.png" />
+          <Image Name="lian_7.png" />
+          <Image Name="lian_8.png" />
+          <Image Name="lianpu-1.png" />
+          <Image Name="lianpu-2.png" />
+          <Image Name="lianpu-3.png" />
+          <Image Name="zc_btn_yuanquan.png" />
+        </Folder>
+        <Project Name="MainScene.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

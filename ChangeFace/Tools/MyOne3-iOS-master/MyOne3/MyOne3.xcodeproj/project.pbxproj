@@ -1,0 +1,1663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230860491C98F427007069EC /* MLBMusicControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230860481C98F427007069EC /* MLBMusicControlView.m */; };
+		2308604D1C993034007069EC /* MLBUserHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2308604C1C993034007069EC /* MLBUserHomeViewController.m */; };
+		230860511C9934C6007069EC /* MLBUserHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230860501C9934C6007069EC /* MLBUserHomeHeaderView.m */; };
+		230860551C993736007069EC /* MLBTapImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230860541C993736007069EC /* MLBTapImageView.m */; };
+		2308605B1C993FF0007069EC /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230860581C993FF0007069EC /* ParallaxHeaderView.m */; };
+		2308605C1C993FF0007069EC /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2308605A1C993FF0007069EC /* UIImage+ImageEffects.m */; };
+		230CC8C51C7B30FC00EAA09C /* MLBHomeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 230CC8C41C7B30FC00EAA09C /* MLBHomeItem.m */; };
+		230CC8C81C7B33D300EAA09C /* MLBHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230CC8C71C7B33D300EAA09C /* MLBHomeView.m */; };
+		230CC8CB1C7B450500EAA09C /* MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 230CC8CA1C7B450500EAA09C /* MLBUtilities.m */; };
+		231CEB1E1D86CA4600CABDFF /* UINavigationController+MLBNavigationShouldPopExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 231CEB1D1D86CA4600CABDFF /* UINavigationController+MLBNavigationShouldPopExtention.m */; };
+		2325E7AF1C86CF2B00BA9544 /* MLBMovieDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 2325E7AE1C86CF2B00BA9544 /* MLBMovieDetails.m */; };
+		2325E7B21C86DA6100BA9544 /* MLBMovieStoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2325E7B11C86DA6100BA9544 /* MLBMovieStoryList.m */; };
+		2325E7B51C86DA9600BA9544 /* MLBMovieStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2325E7B41C86DA9600BA9544 /* MLBMovieStory.m */; };
+		2325E7B81C86DC9700BA9544 /* MLBMovieReviewList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2325E7B71C86DC9700BA9544 /* MLBMovieReviewList.m */; };
+		2325E7BB1C86DCA100BA9544 /* MLBMovieReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2325E7BA1C86DCA100BA9544 /* MLBMovieReview.m */; };
+		233A76081C9A5B2900D82879 /* MLBUserHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 233A76071C9A5B2900D82879 /* MLBUserHomeCell.m */; };
+		233A760B1C9A7B3000D82879 /* MLBSettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 233A760A1C9A7B3000D82879 /* MLBSettingsCell.m */; };
+		234321261D910A25003C2078 /* MLBRelatedMusicCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 234321251D910A25003C2078 /* MLBRelatedMusicCollectionCell.m */; };
+		234321291D910B08003C2078 /* MLBRelatedMusicCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 234321281D910B08003C2078 /* MLBRelatedMusicCCell.m */; };
+		2345EAFB1C7B554900F20BDF /* MLBMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2345EAFA1C7B554900F20BDF /* MLBMusicView.m */; };
+		234BF4B31D8C15A300081250 /* MLBMusicContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 234BF4B21D8C15A300081250 /* MLBMusicContentCell.m */; };
+		2357A7611C7D72E70036F7DC /* MLBNoneMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357A7601C7D72E70036F7DC /* MLBNoneMessageCell.m */; };
+		235A618C1C8DB212008FE79B /* MLBTicketsGrossView.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A618B1C8DB212008FE79B /* MLBTicketsGrossView.m */; };
+		2368863A1CC64E4C00A51301 /* MLBMusicPreviousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236886391CC64E4C00A51301 /* MLBMusicPreviousViewController.m */; };
+		2368863D1CC6559900A51301 /* MLBReadPreviousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2368863C1CC6559900A51301 /* MLBReadPreviousViewController.m */; };
+		236886401CC657B800A51301 /* MLBReadPreviousCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2368863F1CC657B800A51301 /* MLBReadPreviousCell.m */; };
+		236886431CC6717F00A51301 /* MLBSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236886421CC6717F00A51301 /* MLBSearchViewController.m */; };
+		236C84FB1D87A08900ED3BB5 /* MLBReadDetailsAuthorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 236C84FA1D87A08900ED3BB5 /* MLBReadDetailsAuthorCell.m */; };
+		236C84FE1D87BB5F00ED3BB5 /* MLBReadDetailsTitleAndOperationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 236C84FD1D87BB5F00ED3BB5 /* MLBReadDetailsTitleAndOperationCell.m */; };
+		236C85011D87C77B00ED3BB5 /* MLBReadDetailsContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 236C85001D87C77B00ED3BB5 /* MLBReadDetailsContentCell.m */; };
+		2374B3261C8EF53D00E37EDF /* MLBMoviePosterCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2374B3251C8EF53D00E37EDF /* MLBMoviePosterCCell.m */; };
+		2374B32B1C8EFCC500E37EDF /* MLBMoviePoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 2374B32A1C8EFCC500E37EDF /* MLBMoviePoster.m */; };
+		2374B32E1C8F125E00E37EDF /* MLBMovieListItemCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2374B32D1C8F125E00E37EDF /* MLBMovieListItemCCell.m */; };
+		238557FB1C80507200848919 /* AAPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 238557FA1C80507200848919 /* AAPullToRefresh.m */; };
+		239536971C7DA03B00FFA93C /* XHRealTimeBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 239536961C7DA03B00FFA93C /* XHRealTimeBlur.m */; };
+		239536A41C7DA77200FFA93C /* GlowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2395369D1C7DA77200FFA93C /* GlowImageView.m */; };
+		239536A51C7DA77200FFA93C /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2395369F1C7DA77200FFA93C /* MenuButton.m */; };
+		239536A61C7DA77200FFA93C /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 239536A11C7DA77200FFA93C /* MenuItem.m */; };
+		239536A71C7DA77200FFA93C /* PopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 239536A31C7DA77200FFA93C /* PopMenu.m */; };
+		239536AF1C7DCF8400FFA93C /* MLBIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239536AE1C7DCF8400FFA93C /* MLBIntroduceViewController.m */; };
+		239536B91C7DCFA900FFA93C /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 239536B11C7DCFA900FFA93C /* 1.gif */; };
+		239536BA1C7DCFA900FFA93C /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 239536B21C7DCFA900FFA93C /* 2.gif */; };
+		239536BB1C7DCFA900FFA93C /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 239536B31C7DCFA900FFA93C /* 3.gif */; };
+		239536BC1C7DCFA900FFA93C /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 239536B41C7DCFA900FFA93C /* 4.gif */; };
+		239536BD1C7DCFA900FFA93C /* my_player_action.gif in Resources */ = {isa = PBXBuildFile; fileRef = 239536B51C7DCFA900FFA93C /* my_player_action.gif */; };
+		239536BE1C7DCFA900FFA93C /* my_player_action_white.gif in Resources */ = {isa = PBXBuildFile; fileRef = 239536B61C7DCFA900FFA93C /* my_player_action_white.gif */; };
+		239536BF1C7DCFA900FFA93C /* my_player_stop.gif in Resources */ = {isa = PBXBuildFile; fileRef = 239536B71C7DCFA900FFA93C /* my_player_stop.gif */; };
+		239536C01C7DCFA900FFA93C /* my_player_stop_white.gif in Resources */ = {isa = PBXBuildFile; fileRef = 239536B81C7DCFA900FFA93C /* my_player_stop_white.gif */; };
+		23957B751C9A93E2003FBB88 /* MLBMusicRelatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23957B741C9A93E2003FBB88 /* MLBMusicRelatedViewController.m */; };
+		239BC56E1D8931E400AAF364 /* MLBCommonHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 239BC56D1D8931E400AAF364 /* MLBCommonHeaderFooterView.m */; };
+		239F03191C79628100B03AF3 /* MLBUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F03181C79628100B03AF3 /* MLBUIFactory.m */; };
+		239F032F1C7977E000B03AF3 /* MLBBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F032E1C7977E000B03AF3 /* MLBBaseModel.m */; };
+		239F03321C79790200B03AF3 /* MLBMovieListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F03311C79790200B03AF3 /* MLBMovieListItem.m */; };
+		239F03351C797C6500B03AF3 /* MLBHTTPRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F03341C797C6500B03AF3 /* MLBHTTPRequester.m */; };
+		239F03391C79847E00B03AF3 /* MLBBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F03381C79847E00B03AF3 /* MLBBaseCell.m */; };
+		239F033F1C798DA000B03AF3 /* UIImageView+MLBSDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 239F033E1C798DA000B03AF3 /* UIImageView+MLBSDImageLoader.m */; };
+		23AA05831C78A77C0043ACE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA05821C78A77C0043ACE7 /* main.m */; };
+		23AA05861C78A77C0043ACE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA05851C78A77C0043ACE7 /* AppDelegate.m */; };
+		23AA058E1C78A77C0043ACE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AA058D1C78A77C0043ACE7 /* Assets.xcassets */; };
+		23AA05911C78A77C0043ACE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA058F1C78A77C0043ACE7 /* LaunchScreen.storyboard */; };
+		23AA05B81C78BCC70043ACE7 /* MTLModel+MANullableScalar.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA059C1C78BCC70043ACE7 /* MTLModel+MANullableScalar.m */; };
+		23AA05B91C78BCC70043ACE7 /* NSString+MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA059E1C78BCC70043ACE7 /* NSString+MLBUtilities.m */; };
+		23AA05BA1C78BCC70043ACE7 /* UIColor+MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA05A01C78BCC70043ACE7 /* UIColor+MLBUtilities.m */; };
+		23AA05BD1C78BD0D0043ACE7 /* MLBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA05BC1C78BD0D0043ACE7 /* MLBBaseViewController.m */; };
+		23AA05C11C78BE390043ACE7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA05C01C78BE390043ACE7 /* UIView+Frame.m */; };
+		23AA05C51C78BF2F0043ACE7 /* MLBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA05C41C78BF2F0043ACE7 /* MLBTabBarController.m */; };
+		23AA05C81C78BFB40043ACE7 /* MLBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA05C71C78BFB40043ACE7 /* MLBHomeViewController.m */; };
+		23AA05CB1C78BFC20043ACE7 /* MLBReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA05CA1C78BFC20043ACE7 /* MLBReadViewController.m */; };
+		23AA05CE1C78BFD00043ACE7 /* MLBMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA05CD1C78BFD00043ACE7 /* MLBMusicViewController.m */; };
+		23AA05D11C78BFE50043ACE7 /* MLBMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA05D01C78BFE50043ACE7 /* MLBMovieViewController.m */; };
+		23AB7F541C79DE8F00EF21EA /* Bradley Hand Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23AB7F531C79DE8F00EF21EA /* Bradley Hand Bold.ttf */; };
+		23AB7F621C79F12B00EF21EA /* MLBAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AB7F611C79F12B00EF21EA /* MLBAuthor.m */; };
+		23ACBCDF1D824C71001F8DB4 /* UIView+MLBShowHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 23ACBCDE1D824C71001F8DB4 /* UIView+MLBShowHUD.m */; };
+		23ACBCE51D82542F001F8DB4 /* UIScrollView+MLBEndMJRefreshing.m in Sources */ = {isa = PBXBuildFile; fileRef = 23ACBCE41D82542F001F8DB4 /* UIScrollView+MLBEndMJRefreshing.m */; };
+		23ACBCE81D825D54001F8DB4 /* UIView+MyOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 23ACBCE71D825D54001F8DB4 /* UIView+MyOne.m */; };
+		23ACBCEB1D825FC8001F8DB4 /* UIViewController+MyOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 23ACBCEA1D825FC8001F8DB4 /* UIViewController+MyOne.m */; };
+		23AD5FB81C7FEDE200D80701 /* MLBReadDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FB71C7FEDE200D80701 /* MLBReadDetailsViewController.m */; };
+		23AD5FC31C7FEDF300D80701 /* MLBReadCarouselItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FBA1C7FEDF300D80701 /* MLBReadCarouselItem.m */; };
+		23AD5FC41C7FEDF300D80701 /* MLBReadEssay.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FBC1C7FEDF300D80701 /* MLBReadEssay.m */; };
+		23AD5FC51C7FEDF300D80701 /* MLBReadIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FBE1C7FEDF300D80701 /* MLBReadIndex.m */; };
+		23AD5FC61C7FEDF300D80701 /* MLBReadQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FC01C7FEDF300D80701 /* MLBReadQuestion.m */; };
+		23AD5FC71C7FEDF300D80701 /* MLBReadSerial.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FC21C7FEDF300D80701 /* MLBReadSerial.m */; };
+		23AD5FCD1C7FEE9500D80701 /* MLBReadBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FCA1C7FEE9500D80701 /* MLBReadBaseCell.m */; };
+		23AD5FCE1C7FEE9500D80701 /* MLBReadBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FCC1C7FEE9500D80701 /* MLBReadBaseView.m */; };
+		23AD5FD11C7FF87200D80701 /* MLBReadDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FD01C7FF87200D80701 /* MLBReadDetailsView.m */; };
+		23AD5FD41C7FFBD000D80701 /* MLBChargeEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FD31C7FFBD000D80701 /* MLBChargeEditorView.m */; };
+		23AD5FDA1C80000500D80701 /* MZSelectableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FD71C80000500D80701 /* MZSelectableLabel.m */; };
+		23AD5FDB1C80000500D80701 /* UIColor+Equalable.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FD91C80000500D80701 /* UIColor+Equalable.m */; };
+		23AD5FDE1C8027CD00D80701 /* MLBReadEssayDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD5FDD1C8027CD00D80701 /* MLBReadEssayDetails.m */; };
+		23AF41581CC4E43400957DFD /* MLBPreviousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF41571CC4E43400957DFD /* MLBPreviousViewController.m */; };
+		23AF415E1CC4FB5500957DFD /* DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF415B1CC4FB5500957DFD /* DZNSegmentedControl.m */; };
+		23AF415F1CC4FB5500957DFD /* UIScrollView+DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF415D1CC4FB5500957DFD /* UIScrollView+DZNSegmentedControl.m */; };
+		23AF41621CC5099100957DFD /* MLBHomePreviousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF41611CC5099100957DFD /* MLBHomePreviousViewController.m */; };
+		23AF41661CC50F2500957DFD /* MLBHomeCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF41651CC50F2500957DFD /* MLBHomeCCell.m */; };
+		23AF41711CC51AA800957DFD /* DDCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF41701CC51AA800957DFD /* DDCollectionViewFlowLayout.m */; };
+		23B585451C7EF81200B325AF /* MLBBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B585441C7EF81200B325AF /* MLBBaseView.m */; };
+		23BAAE9C1C82A3D400AA6C87 /* MLBMovieDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BAAE9B1C82A3D400AA6C87 /* MLBMovieDetailsViewController.m */; };
+		23BAAEA31C82A6C500AA6C87 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BAAEA21C82A6C500AA6C87 /* MZTimerLabel.m */; };
+		23BAAEA61C82AB1D00AA6C87 /* MLBScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BAAEA51C82AB1D00AA6C87 /* MLBScoreView.m */; };
+		23BAAEA91C832C1100AA6C87 /* MLBMovieDetailsHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BAAEA81C832C1100AA6C87 /* MLBMovieDetailsHeaderView.m */; };
+		23BFAC7E1C8088670014A977 /* MLBReadSerialDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BFAC7D1C8088670014A977 /* MLBReadSerialDetails.m */; };
+		23BFAC811C808C590014A977 /* MLBReadQuestionDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BFAC801C808C590014A977 /* MLBReadQuestionDetails.m */; };
+		23C174C01C8170C000C071A1 /* MLBCommonFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C174BD1C8170C000C071A1 /* MLBCommonFooterView.m */; };
+		23C174C11C8170C000C071A1 /* MLBCommonHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C174BF1C8170C000C071A1 /* MLBCommonHeaderView.m */; };
+		23C174C41C81999B00C071A1 /* MLBTopTenArticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C174C31C81999B00C071A1 /* MLBTopTenArticalViewController.m */; };
+		23C174C71C819D0A00C071A1 /* MLBTopTenArtical.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C174C61C819D0A00C071A1 /* MLBTopTenArtical.m */; };
+		23C174CA1C81BDA000C071A1 /* MLBTopTenArticalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C174C91C81BDA000C071A1 /* MLBTopTenArticalCell.m */; };
+		23C73CCD1C7C944900B9F412 /* MLBCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C73CCC1C7C944900B9F412 /* MLBCommentCell.m */; };
+		23C73CD11C7CA40500B9F412 /* MLBRelatedMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C73CD01C7CA40500B9F412 /* MLBRelatedMusicCell.m */; };
+		23C9065A1C99549D009E9B3E /* MLBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C906591C99549D009E9B3E /* MLBSettingsViewController.m */; };
+		23C9065D1C995C0B009E9B3E /* MLBSettingsSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C9065C1C995C0B009E9B3E /* MLBSettingsSectionHeaderView.m */; };
+		23CAEC3A1D1BDC6800C689B8 /* movieList_placeholder_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC2E1D1BDC6800C689B8 /* movieList_placeholder_0.png */; };
+		23CAEC3B1D1BDC6800C689B8 /* movieList_placeholder_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC2F1D1BDC6800C689B8 /* movieList_placeholder_1.png */; };
+		23CAEC3C1D1BDC6800C689B8 /* movieList_placeholder_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC301D1BDC6800C689B8 /* movieList_placeholder_10.png */; };
+		23CAEC3D1D1BDC6800C689B8 /* movieList_placeholder_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC311D1BDC6800C689B8 /* movieList_placeholder_11.png */; };
+		23CAEC3E1D1BDC6800C689B8 /* movieList_placeholder_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC321D1BDC6800C689B8 /* movieList_placeholder_2.png */; };
+		23CAEC3F1D1BDC6800C689B8 /* movieList_placeholder_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC331D1BDC6800C689B8 /* movieList_placeholder_3.png */; };
+		23CAEC401D1BDC6800C689B8 /* movieList_placeholder_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC341D1BDC6800C689B8 /* movieList_placeholder_4.png */; };
+		23CAEC411D1BDC6800C689B8 /* movieList_placeholder_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC351D1BDC6800C689B8 /* movieList_placeholder_5.png */; };
+		23CAEC421D1BDC6800C689B8 /* movieList_placeholder_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC361D1BDC6800C689B8 /* movieList_placeholder_6.png */; };
+		23CAEC431D1BDC6800C689B8 /* movieList_placeholder_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC371D1BDC6800C689B8 /* movieList_placeholder_7.png */; };
+		23CAEC441D1BDC6800C689B8 /* movieList_placeholder_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC381D1BDC6800C689B8 /* movieList_placeholder_8.png */; };
+		23CAEC451D1BDC6800C689B8 /* movieList_placeholder_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC391D1BDC6800C689B8 /* movieList_placeholder_9.png */; };
+		23CAEC491D1BE13300C689B8 /* music_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC471D1BE13300C689B8 /* music_cover.png */; };
+		23CAEC4A1D1BE13300C689B8 /* music_cover_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC481D1BE13300C689B8 /* music_cover_small.png */; };
+		23CAEC4D1D1BE40500C689B8 /* personalBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC4C1D1BE40500C689B8 /* personalBackgroundImage.png */; };
+		23CAEC501D1BE5D700C689B8 /* home_cover_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CAEC4F1D1BE5D700C689B8 /* home_cover_placeholder.png */; };
+		23D24E611C9036BD00761AD9 /* MLBSerialCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D24E601C9036BD00761AD9 /* MLBSerialCollectionView.m */; };
+		23D24E641C90389000761AD9 /* MLBSerialCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D24E631C90389000761AD9 /* MLBSerialCCell.m */; };
+		23D24E671C903C9B00761AD9 /* MLBSerialList.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D24E661C903C9B00761AD9 /* MLBSerialList.m */; };
+		23DA37391CC72F1C00B6BFFD /* MLBSearchRead.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DA37381CC72F1C00B6BFFD /* MLBSearchRead.m */; };
+		23DA373D1CC72FE300B6BFFD /* MLBSearchPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DA373C1CC72FE300B6BFFD /* MLBSearchPictureCell.m */; };
+		23DA37401CC7335900B6BFFD /* MLBSearchReadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DA373F1CC7335900B6BFFD /* MLBSearchReadCell.m */; };
+		23DA37431CC7443200B6BFFD /* MLBSearchMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DA37421CC7443200B6BFFD /* MLBSearchMusicCell.m */; };
+		23DA37461CC7477500B6BFFD /* MLBSearchAuthorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DA37451CC7477500B6BFFD /* MLBSearchAuthorCell.m */; };
+		23DA37491CC7550200B6BFFD /* MLBSearchMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DA37481CC7550200B6BFFD /* MLBSearchMovieCell.m */; };
+		23DA374C1CC7632200B6BFFD /* MLBSingleHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DA374B1CC7632200B6BFFD /* MLBSingleHomeViewController.m */; };
+		23DD14131C97A58C0092B495 /* MLBSingleReadDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DD14121C97A58C0092B495 /* MLBSingleReadDetailsViewController.m */; };
+		23DD452C1D88395000D8049D /* MLBReadDetailsAuthorInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DD452B1D88395000D8049D /* MLBReadDetailsAuthorInfoCell.m */; };
+		23E176381C7C467E0052B2A9 /* MLBCommentList.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E176371C7C467E0052B2A9 /* MLBCommentList.m */; };
+		23E1763B1C7C471A0052B2A9 /* MLBComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1763A1C7C471A0052B2A9 /* MLBComment.m */; };
+		23E1763E1C7C47CA0052B2A9 /* MLBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1763D1C7C47CA0052B2A9 /* MLBUser.m */; };
+		23E176411C7C4A6E0052B2A9 /* MLBRelatedMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E176401C7C4A6E0052B2A9 /* MLBRelatedMusic.m */; };
+		23E651D61C8BF8AA00E9B23B /* MLBCommentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E651D51C8BF8AA00E9B23B /* MLBCommentListViewController.m */; };
+		23ED65D31D8AD9B600CD9E74 /* MLBReadDetailsQuestionTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23ED65D21D8AD9B600CD9E74 /* MLBReadDetailsQuestionTitleCell.m */; };
+		23ED65D61D8AD9D700CD9E74 /* MLBReadDetailsQuestionAnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23ED65D51D8AD9D700CD9E74 /* MLBReadDetailsQuestionAnswerCell.m */; };
+		23F202851C9803FE00F586C1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F202841C9803FE00F586C1 /* CoreLocation.framework */; };
+		23FA09391C7C0C0A0068C97D /* MLBMusicDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FA09381C7C0C0A0068C97D /* MLBMusicDetails.m */; };
+		23FC0B711C7E9A310019A16E /* MLBLiginOptsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FC0B701C7E9A310019A16E /* MLBLiginOptsViewController.m */; };
+		23FC0B751C7EABDF0019A16E /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FC0B741C7EABDF0019A16E /* UIImage+Common.m */; };
+		23FC0B781C7EBFD00019A16E /* MLBPoilcyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FC0B771C7EBFD00019A16E /* MLBPoilcyViewController.m */; };
+		FBEEFD0C7290C70F09C3741C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE35E8E8B042DD82FB5F3253 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06D7F8D6F9DD66A59F51E1A4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		230860471C98F427007069EC /* MLBMusicControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMusicControlView.h; sourceTree = "<group>"; };
+		230860481C98F427007069EC /* MLBMusicControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMusicControlView.m; sourceTree = "<group>"; };
+		2308604B1C993034007069EC /* MLBUserHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBUserHomeViewController.h; sourceTree = "<group>"; };
+		2308604C1C993034007069EC /* MLBUserHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBUserHomeViewController.m; sourceTree = "<group>"; };
+		2308604F1C9934C6007069EC /* MLBUserHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBUserHomeHeaderView.h; sourceTree = "<group>"; };
+		230860501C9934C6007069EC /* MLBUserHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBUserHomeHeaderView.m; sourceTree = "<group>"; };
+		230860531C993736007069EC /* MLBTapImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBTapImageView.h; sourceTree = "<group>"; };
+		230860541C993736007069EC /* MLBTapImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBTapImageView.m; sourceTree = "<group>"; };
+		230860571C993FF0007069EC /* ParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeaderView.h; sourceTree = "<group>"; };
+		230860581C993FF0007069EC /* ParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxHeaderView.m; sourceTree = "<group>"; };
+		230860591C993FF0007069EC /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		2308605A1C993FF0007069EC /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		230CC8C31C7B30FC00EAA09C /* MLBHomeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBHomeItem.h; sourceTree = "<group>"; };
+		230CC8C41C7B30FC00EAA09C /* MLBHomeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBHomeItem.m; sourceTree = "<group>"; };
+		230CC8C61C7B33D300EAA09C /* MLBHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBHomeView.h; sourceTree = "<group>"; };
+		230CC8C71C7B33D300EAA09C /* MLBHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBHomeView.m; sourceTree = "<group>"; };
+		230CC8C91C7B450500EAA09C /* MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBUtilities.h; sourceTree = "<group>"; };
+		230CC8CA1C7B450500EAA09C /* MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBUtilities.m; sourceTree = "<group>"; };
+		231CEB1C1D86CA4600CABDFF /* UINavigationController+MLBNavigationShouldPopExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MLBNavigationShouldPopExtention.h"; sourceTree = "<group>"; };
+		231CEB1D1D86CA4600CABDFF /* UINavigationController+MLBNavigationShouldPopExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MLBNavigationShouldPopExtention.m"; sourceTree = "<group>"; };
+		2325E7AD1C86CF2B00BA9544 /* MLBMovieDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMovieDetails.h; sourceTree = "<group>"; };
+		2325E7AE1C86CF2B00BA9544 /* MLBMovieDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMovieDetails.m; sourceTree = "<group>"; };
+		2325E7B01C86DA6100BA9544 /* MLBMovieStoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMovieStoryList.h; sourceTree = "<group>"; };
+		2325E7B11C86DA6100BA9544 /* MLBMovieStoryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMovieStoryList.m; sourceTree = "<group>"; };
+		2325E7B31C86DA9600BA9544 /* MLBMovieStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMovieStory.h; sourceTree = "<group>"; };
+		2325E7B41C86DA9600BA9544 /* MLBMovieStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMovieStory.m; sourceTree = "<group>"; };
+		2325E7B61C86DC9700BA9544 /* MLBMovieReviewList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMovieReviewList.h; sourceTree = "<group>"; };
+		2325E7B71C86DC9700BA9544 /* MLBMovieReviewList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMovieReviewList.m; sourceTree = "<group>"; };
+		2325E7B91C86DCA100BA9544 /* MLBMovieReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMovieReview.h; sourceTree = "<group>"; };
+		2325E7BA1C86DCA100BA9544 /* MLBMovieReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMovieReview.m; sourceTree = "<group>"; };
+		233A76061C9A5B2900D82879 /* MLBUserHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBUserHomeCell.h; sourceTree = "<group>"; };
+		233A76071C9A5B2900D82879 /* MLBUserHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBUserHomeCell.m; sourceTree = "<group>"; };
+		233A76091C9A7B3000D82879 /* MLBSettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSettingsCell.h; sourceTree = "<group>"; };
+		233A760A1C9A7B3000D82879 /* MLBSettingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSettingsCell.m; sourceTree = "<group>"; };
+		234321241D910A25003C2078 /* MLBRelatedMusicCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBRelatedMusicCollectionCell.h; sourceTree = "<group>"; };
+		234321251D910A25003C2078 /* MLBRelatedMusicCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBRelatedMusicCollectionCell.m; sourceTree = "<group>"; };
+		234321271D910B08003C2078 /* MLBRelatedMusicCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBRelatedMusicCCell.h; sourceTree = "<group>"; };
+		234321281D910B08003C2078 /* MLBRelatedMusicCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBRelatedMusicCCell.m; sourceTree = "<group>"; };
+		2345EAF91C7B554900F20BDF /* MLBMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMusicView.h; sourceTree = "<group>"; };
+		2345EAFA1C7B554900F20BDF /* MLBMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMusicView.m; sourceTree = "<group>"; };
+		234BF4B11D8C15A300081250 /* MLBMusicContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMusicContentCell.h; sourceTree = "<group>"; };
+		234BF4B21D8C15A300081250 /* MLBMusicContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMusicContentCell.m; sourceTree = "<group>"; };
+		2357A75F1C7D72E70036F7DC /* MLBNoneMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBNoneMessageCell.h; sourceTree = "<group>"; };
+		2357A7601C7D72E70036F7DC /* MLBNoneMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBNoneMessageCell.m; sourceTree = "<group>"; };
+		235A618A1C8DB212008FE79B /* MLBTicketsGrossView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBTicketsGrossView.h; sourceTree = "<group>"; };
+		235A618B1C8DB212008FE79B /* MLBTicketsGrossView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBTicketsGrossView.m; sourceTree = "<group>"; };
+		236886381CC64E4C00A51301 /* MLBMusicPreviousViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMusicPreviousViewController.h; sourceTree = "<group>"; };
+		236886391CC64E4C00A51301 /* MLBMusicPreviousViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMusicPreviousViewController.m; sourceTree = "<group>"; };
+		2368863B1CC6559900A51301 /* MLBReadPreviousViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadPreviousViewController.h; sourceTree = "<group>"; };
+		2368863C1CC6559900A51301 /* MLBReadPreviousViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadPreviousViewController.m; sourceTree = "<group>"; };
+		2368863E1CC657B800A51301 /* MLBReadPreviousCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadPreviousCell.h; sourceTree = "<group>"; };
+		2368863F1CC657B800A51301 /* MLBReadPreviousCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadPreviousCell.m; sourceTree = "<group>"; };
+		236886411CC6717F00A51301 /* MLBSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSearchViewController.h; sourceTree = "<group>"; };
+		236886421CC6717F00A51301 /* MLBSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSearchViewController.m; sourceTree = "<group>"; };
+		236C84F91D87A08900ED3BB5 /* MLBReadDetailsAuthorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadDetailsAuthorCell.h; sourceTree = "<group>"; };
+		236C84FA1D87A08900ED3BB5 /* MLBReadDetailsAuthorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadDetailsAuthorCell.m; sourceTree = "<group>"; };
+		236C84FC1D87BB5F00ED3BB5 /* MLBReadDetailsTitleAndOperationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadDetailsTitleAndOperationCell.h; sourceTree = "<group>"; };
+		236C84FD1D87BB5F00ED3BB5 /* MLBReadDetailsTitleAndOperationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadDetailsTitleAndOperationCell.m; sourceTree = "<group>"; };
+		236C84FF1D87C77B00ED3BB5 /* MLBReadDetailsContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadDetailsContentCell.h; sourceTree = "<group>"; };
+		236C85001D87C77B00ED3BB5 /* MLBReadDetailsContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadDetailsContentCell.m; sourceTree = "<group>"; };
+		2374B3241C8EF53D00E37EDF /* MLBMoviePosterCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMoviePosterCCell.h; sourceTree = "<group>"; };
+		2374B3251C8EF53D00E37EDF /* MLBMoviePosterCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMoviePosterCCell.m; sourceTree = "<group>"; };
+		2374B3291C8EFCC500E37EDF /* MLBMoviePoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMoviePoster.h; sourceTree = "<group>"; };
+		2374B32A1C8EFCC500E37EDF /* MLBMoviePoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMoviePoster.m; sourceTree = "<group>"; };
+		2374B32C1C8F125E00E37EDF /* MLBMovieListItemCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMovieListItemCCell.h; sourceTree = "<group>"; };
+		2374B32D1C8F125E00E37EDF /* MLBMovieListItemCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMovieListItemCCell.m; sourceTree = "<group>"; };
+		238557F91C80507200848919 /* AAPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPullToRefresh.h; sourceTree = "<group>"; };
+		238557FA1C80507200848919 /* AAPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPullToRefresh.m; sourceTree = "<group>"; };
+		239536951C7DA03B00FFA93C /* XHRealTimeBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRealTimeBlur.h; sourceTree = "<group>"; };
+		239536961C7DA03B00FFA93C /* XHRealTimeBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHRealTimeBlur.m; sourceTree = "<group>"; };
+		2395369C1C7DA77200FFA93C /* GlowImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowImageView.h; sourceTree = "<group>"; };
+		2395369D1C7DA77200FFA93C /* GlowImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowImageView.m; sourceTree = "<group>"; };
+		2395369E1C7DA77200FFA93C /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		2395369F1C7DA77200FFA93C /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
+		239536A01C7DA77200FFA93C /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		239536A11C7DA77200FFA93C /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		239536A21C7DA77200FFA93C /* PopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenu.h; sourceTree = "<group>"; };
+		239536A31C7DA77200FFA93C /* PopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenu.m; sourceTree = "<group>"; };
+		239536AD1C7DCF8400FFA93C /* MLBIntroduceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBIntroduceViewController.h; sourceTree = "<group>"; };
+		239536AE1C7DCF8400FFA93C /* MLBIntroduceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBIntroduceViewController.m; sourceTree = "<group>"; };
+		239536B11C7DCFA900FFA93C /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		239536B21C7DCFA900FFA93C /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		239536B31C7DCFA900FFA93C /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		239536B41C7DCFA900FFA93C /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		239536B51C7DCFA900FFA93C /* my_player_action.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my_player_action.gif; sourceTree = "<group>"; };
+		239536B61C7DCFA900FFA93C /* my_player_action_white.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my_player_action_white.gif; sourceTree = "<group>"; };
+		239536B71C7DCFA900FFA93C /* my_player_stop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my_player_stop.gif; sourceTree = "<group>"; };
+		239536B81C7DCFA900FFA93C /* my_player_stop_white.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my_player_stop_white.gif; sourceTree = "<group>"; };
+		23957B731C9A93E2003FBB88 /* MLBMusicRelatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMusicRelatedViewController.h; sourceTree = "<group>"; };
+		23957B741C9A93E2003FBB88 /* MLBMusicRelatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMusicRelatedViewController.m; sourceTree = "<group>"; };
+		239BC56C1D8931E400AAF364 /* MLBCommonHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBCommonHeaderFooterView.h; sourceTree = "<group>"; };
+		239BC56D1D8931E400AAF364 /* MLBCommonHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBCommonHeaderFooterView.m; sourceTree = "<group>"; };
+		239F03171C79628100B03AF3 /* MLBUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBUIFactory.h; sourceTree = "<group>"; };
+		239F03181C79628100B03AF3 /* MLBUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBUIFactory.m; sourceTree = "<group>"; };
+		239F032C1C7975A500B03AF3 /* MLBApiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBApiConstants.h; sourceTree = "<group>"; };
+		239F032D1C7977E000B03AF3 /* MLBBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBBaseModel.h; sourceTree = "<group>"; };
+		239F032E1C7977E000B03AF3 /* MLBBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBBaseModel.m; sourceTree = "<group>"; };
+		239F03301C79790200B03AF3 /* MLBMovieListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMovieListItem.h; sourceTree = "<group>"; };
+		239F03311C79790200B03AF3 /* MLBMovieListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMovieListItem.m; sourceTree = "<group>"; };
+		239F03331C797C6500B03AF3 /* MLBHTTPRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBHTTPRequester.h; sourceTree = "<group>"; };
+		239F03341C797C6500B03AF3 /* MLBHTTPRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBHTTPRequester.m; sourceTree = "<group>"; };
+		239F03371C79847E00B03AF3 /* MLBBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBBaseCell.h; sourceTree = "<group>"; };
+		239F03381C79847E00B03AF3 /* MLBBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBBaseCell.m; sourceTree = "<group>"; };
+		239F033D1C798DA000B03AF3 /* UIImageView+MLBSDImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MLBSDImageLoader.h"; sourceTree = "<group>"; };
+		239F033E1C798DA000B03AF3 /* UIImageView+MLBSDImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MLBSDImageLoader.m"; sourceTree = "<group>"; };
+		23AA057E1C78A77C0043ACE7 /* MyOne3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOne3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AA05821C78A77C0043ACE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23AA05841C78A77C0043ACE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23AA05851C78A77C0043ACE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23AA058D1C78A77C0043ACE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23AA05901C78A77C0043ACE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23AA05921C78A77C0043ACE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AA059B1C78BCC70043ACE7 /* MTLModel+MANullableScalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTLModel+MANullableScalar.h"; sourceTree = "<group>"; };
+		23AA059C1C78BCC70043ACE7 /* MTLModel+MANullableScalar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTLModel+MANullableScalar.m"; sourceTree = "<group>"; };
+		23AA059D1C78BCC70043ACE7 /* NSString+MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MLBUtilities.h"; sourceTree = "<group>"; };
+		23AA059E1C78BCC70043ACE7 /* NSString+MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLBUtilities.m"; sourceTree = "<group>"; };
+		23AA059F1C78BCC70043ACE7 /* UIColor+MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLBUtilities.h"; sourceTree = "<group>"; };
+		23AA05A01C78BCC70043ACE7 /* UIColor+MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLBUtilities.m"; sourceTree = "<group>"; };
+		23AA05A21C78BCC70043ACE7 /* MLBMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMacros.h; sourceTree = "<group>"; };
+		23AA05BB1C78BD0D0043ACE7 /* MLBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBBaseViewController.h; sourceTree = "<group>"; };
+		23AA05BC1C78BD0D0043ACE7 /* MLBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBBaseViewController.m; sourceTree = "<group>"; };
+		23AA05BE1C78BD800043ACE7 /* MyOne3.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOne3.pch; sourceTree = "<group>"; };
+		23AA05BF1C78BE390043ACE7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		23AA05C01C78BE390043ACE7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		23AA05C31C78BF2F0043ACE7 /* MLBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBTabBarController.h; sourceTree = "<group>"; };
+		23AA05C41C78BF2F0043ACE7 /* MLBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBTabBarController.m; sourceTree = "<group>"; };
+		23AA05C61C78BFB40043ACE7 /* MLBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBHomeViewController.h; sourceTree = "<group>"; };
+		23AA05C71C78BFB40043ACE7 /* MLBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBHomeViewController.m; sourceTree = "<group>"; };
+		23AA05C91C78BFC20043ACE7 /* MLBReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadViewController.h; sourceTree = "<group>"; };
+		23AA05CA1C78BFC20043ACE7 /* MLBReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadViewController.m; sourceTree = "<group>"; };
+		23AA05CC1C78BFD00043ACE7 /* MLBMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMusicViewController.h; sourceTree = "<group>"; };
+		23AA05CD1C78BFD00043ACE7 /* MLBMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMusicViewController.m; sourceTree = "<group>"; };
+		23AA05CF1C78BFE50043ACE7 /* MLBMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMovieViewController.h; sourceTree = "<group>"; };
+		23AA05D01C78BFE50043ACE7 /* MLBMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMovieViewController.m; sourceTree = "<group>"; };
+		23AA05D21C78C4880043ACE7 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		23AB7F531C79DE8F00EF21EA /* Bradley Hand Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bradley Hand Bold.ttf"; sourceTree = "<group>"; };
+		23AB7F601C79F12B00EF21EA /* MLBAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBAuthor.h; sourceTree = "<group>"; };
+		23AB7F611C79F12B00EF21EA /* MLBAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBAuthor.m; sourceTree = "<group>"; };
+		23ACBCDD1D824C71001F8DB4 /* UIView+MLBShowHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLBShowHUD.h"; sourceTree = "<group>"; };
+		23ACBCDE1D824C71001F8DB4 /* UIView+MLBShowHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLBShowHUD.m"; sourceTree = "<group>"; };
+		23ACBCE31D82542F001F8DB4 /* UIScrollView+MLBEndMJRefreshing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MLBEndMJRefreshing.h"; sourceTree = "<group>"; };
+		23ACBCE41D82542F001F8DB4 /* UIScrollView+MLBEndMJRefreshing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MLBEndMJRefreshing.m"; sourceTree = "<group>"; };
+		23ACBCE61D825D54001F8DB4 /* UIView+MyOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MyOne.h"; sourceTree = "<group>"; };
+		23ACBCE71D825D54001F8DB4 /* UIView+MyOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MyOne.m"; sourceTree = "<group>"; };
+		23ACBCE91D825FC8001F8DB4 /* UIViewController+MyOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MyOne.h"; sourceTree = "<group>"; };
+		23ACBCEA1D825FC8001F8DB4 /* UIViewController+MyOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MyOne.m"; sourceTree = "<group>"; };
+		23AD5FB61C7FEDE200D80701 /* MLBReadDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadDetailsViewController.h; sourceTree = "<group>"; };
+		23AD5FB71C7FEDE200D80701 /* MLBReadDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadDetailsViewController.m; sourceTree = "<group>"; };
+		23AD5FB91C7FEDF300D80701 /* MLBReadCarouselItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadCarouselItem.h; sourceTree = "<group>"; };
+		23AD5FBA1C7FEDF300D80701 /* MLBReadCarouselItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadCarouselItem.m; sourceTree = "<group>"; };
+		23AD5FBB1C7FEDF300D80701 /* MLBReadEssay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadEssay.h; sourceTree = "<group>"; };
+		23AD5FBC1C7FEDF300D80701 /* MLBReadEssay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadEssay.m; sourceTree = "<group>"; };
+		23AD5FBD1C7FEDF300D80701 /* MLBReadIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadIndex.h; sourceTree = "<group>"; };
+		23AD5FBE1C7FEDF300D80701 /* MLBReadIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadIndex.m; sourceTree = "<group>"; };
+		23AD5FBF1C7FEDF300D80701 /* MLBReadQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadQuestion.h; sourceTree = "<group>"; };
+		23AD5FC01C7FEDF300D80701 /* MLBReadQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadQuestion.m; sourceTree = "<group>"; };
+		23AD5FC11C7FEDF300D80701 /* MLBReadSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadSerial.h; sourceTree = "<group>"; };
+		23AD5FC21C7FEDF300D80701 /* MLBReadSerial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadSerial.m; sourceTree = "<group>"; };
+		23AD5FC91C7FEE9500D80701 /* MLBReadBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadBaseCell.h; sourceTree = "<group>"; };
+		23AD5FCA1C7FEE9500D80701 /* MLBReadBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadBaseCell.m; sourceTree = "<group>"; };
+		23AD5FCB1C7FEE9500D80701 /* MLBReadBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadBaseView.h; sourceTree = "<group>"; };
+		23AD5FCC1C7FEE9500D80701 /* MLBReadBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadBaseView.m; sourceTree = "<group>"; };
+		23AD5FCF1C7FF87200D80701 /* MLBReadDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadDetailsView.h; sourceTree = "<group>"; };
+		23AD5FD01C7FF87200D80701 /* MLBReadDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadDetailsView.m; sourceTree = "<group>"; };
+		23AD5FD21C7FFBD000D80701 /* MLBChargeEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBChargeEditorView.h; sourceTree = "<group>"; };
+		23AD5FD31C7FFBD000D80701 /* MLBChargeEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBChargeEditorView.m; sourceTree = "<group>"; };
+		23AD5FD61C80000500D80701 /* MZSelectableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZSelectableLabel.h; sourceTree = "<group>"; };
+		23AD5FD71C80000500D80701 /* MZSelectableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZSelectableLabel.m; sourceTree = "<group>"; };
+		23AD5FD81C80000500D80701 /* UIColor+Equalable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Equalable.h"; sourceTree = "<group>"; };
+		23AD5FD91C80000500D80701 /* UIColor+Equalable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Equalable.m"; sourceTree = "<group>"; };
+		23AD5FDC1C8027CD00D80701 /* MLBReadEssayDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadEssayDetails.h; sourceTree = "<group>"; };
+		23AD5FDD1C8027CD00D80701 /* MLBReadEssayDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadEssayDetails.m; sourceTree = "<group>"; };
+		23AF41561CC4E43400957DFD /* MLBPreviousViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBPreviousViewController.h; sourceTree = "<group>"; };
+		23AF41571CC4E43400957DFD /* MLBPreviousViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBPreviousViewController.m; sourceTree = "<group>"; };
+		23AF415A1CC4FB5500957DFD /* DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNSegmentedControl.h; sourceTree = "<group>"; };
+		23AF415B1CC4FB5500957DFD /* DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNSegmentedControl.m; sourceTree = "<group>"; };
+		23AF415C1CC4FB5500957DFD /* UIScrollView+DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DZNSegmentedControl.h"; sourceTree = "<group>"; };
+		23AF415D1CC4FB5500957DFD /* UIScrollView+DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DZNSegmentedControl.m"; sourceTree = "<group>"; };
+		23AF41601CC5099100957DFD /* MLBHomePreviousViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBHomePreviousViewController.h; sourceTree = "<group>"; };
+		23AF41611CC5099100957DFD /* MLBHomePreviousViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBHomePreviousViewController.m; sourceTree = "<group>"; };
+		23AF41641CC50F2500957DFD /* MLBHomeCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBHomeCCell.h; sourceTree = "<group>"; };
+		23AF41651CC50F2500957DFD /* MLBHomeCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBHomeCCell.m; sourceTree = "<group>"; };
+		23AF416F1CC51AA800957DFD /* DDCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		23AF41701CC51AA800957DFD /* DDCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		23B585431C7EF81200B325AF /* MLBBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBBaseView.h; sourceTree = "<group>"; };
+		23B585441C7EF81200B325AF /* MLBBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBBaseView.m; sourceTree = "<group>"; };
+		23BAAE9A1C82A3D400AA6C87 /* MLBMovieDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMovieDetailsViewController.h; sourceTree = "<group>"; };
+		23BAAE9B1C82A3D400AA6C87 /* MLBMovieDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMovieDetailsViewController.m; sourceTree = "<group>"; };
+		23BAAEA11C82A6C500AA6C87 /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		23BAAEA21C82A6C500AA6C87 /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
+		23BAAEA41C82AB1D00AA6C87 /* MLBScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBScoreView.h; sourceTree = "<group>"; };
+		23BAAEA51C82AB1D00AA6C87 /* MLBScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBScoreView.m; sourceTree = "<group>"; };
+		23BAAEA71C832C1100AA6C87 /* MLBMovieDetailsHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMovieDetailsHeaderView.h; sourceTree = "<group>"; };
+		23BAAEA81C832C1100AA6C87 /* MLBMovieDetailsHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMovieDetailsHeaderView.m; sourceTree = "<group>"; };
+		23BFAC7C1C8088670014A977 /* MLBReadSerialDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadSerialDetails.h; sourceTree = "<group>"; };
+		23BFAC7D1C8088670014A977 /* MLBReadSerialDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadSerialDetails.m; sourceTree = "<group>"; };
+		23BFAC7F1C808C590014A977 /* MLBReadQuestionDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadQuestionDetails.h; sourceTree = "<group>"; };
+		23BFAC801C808C590014A977 /* MLBReadQuestionDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadQuestionDetails.m; sourceTree = "<group>"; };
+		23C174BC1C8170C000C071A1 /* MLBCommonFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBCommonFooterView.h; sourceTree = "<group>"; };
+		23C174BD1C8170C000C071A1 /* MLBCommonFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBCommonFooterView.m; sourceTree = "<group>"; };
+		23C174BE1C8170C000C071A1 /* MLBCommonHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBCommonHeaderView.h; sourceTree = "<group>"; };
+		23C174BF1C8170C000C071A1 /* MLBCommonHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBCommonHeaderView.m; sourceTree = "<group>"; };
+		23C174C21C81999B00C071A1 /* MLBTopTenArticalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBTopTenArticalViewController.h; sourceTree = "<group>"; };
+		23C174C31C81999B00C071A1 /* MLBTopTenArticalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBTopTenArticalViewController.m; sourceTree = "<group>"; };
+		23C174C51C819D0A00C071A1 /* MLBTopTenArtical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBTopTenArtical.h; sourceTree = "<group>"; };
+		23C174C61C819D0A00C071A1 /* MLBTopTenArtical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBTopTenArtical.m; sourceTree = "<group>"; };
+		23C174C81C81BDA000C071A1 /* MLBTopTenArticalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBTopTenArticalCell.h; sourceTree = "<group>"; };
+		23C174C91C81BDA000C071A1 /* MLBTopTenArticalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBTopTenArticalCell.m; sourceTree = "<group>"; };
+		23C73CCB1C7C944900B9F412 /* MLBCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBCommentCell.h; sourceTree = "<group>"; };
+		23C73CCC1C7C944900B9F412 /* MLBCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBCommentCell.m; sourceTree = "<group>"; };
+		23C73CCF1C7CA40500B9F412 /* MLBRelatedMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBRelatedMusicCell.h; sourceTree = "<group>"; };
+		23C73CD01C7CA40500B9F412 /* MLBRelatedMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBRelatedMusicCell.m; sourceTree = "<group>"; };
+		23C906581C99549D009E9B3E /* MLBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSettingsViewController.h; sourceTree = "<group>"; };
+		23C906591C99549D009E9B3E /* MLBSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSettingsViewController.m; sourceTree = "<group>"; };
+		23C9065B1C995C0B009E9B3E /* MLBSettingsSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSettingsSectionHeaderView.h; sourceTree = "<group>"; };
+		23C9065C1C995C0B009E9B3E /* MLBSettingsSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSettingsSectionHeaderView.m; sourceTree = "<group>"; };
+		23CAEC2E1D1BDC6800C689B8 /* movieList_placeholder_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_0.png; sourceTree = "<group>"; };
+		23CAEC2F1D1BDC6800C689B8 /* movieList_placeholder_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_1.png; sourceTree = "<group>"; };
+		23CAEC301D1BDC6800C689B8 /* movieList_placeholder_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_10.png; sourceTree = "<group>"; };
+		23CAEC311D1BDC6800C689B8 /* movieList_placeholder_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_11.png; sourceTree = "<group>"; };
+		23CAEC321D1BDC6800C689B8 /* movieList_placeholder_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_2.png; sourceTree = "<group>"; };
+		23CAEC331D1BDC6800C689B8 /* movieList_placeholder_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_3.png; sourceTree = "<group>"; };
+		23CAEC341D1BDC6800C689B8 /* movieList_placeholder_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_4.png; sourceTree = "<group>"; };
+		23CAEC351D1BDC6800C689B8 /* movieList_placeholder_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_5.png; sourceTree = "<group>"; };
+		23CAEC361D1BDC6800C689B8 /* movieList_placeholder_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_6.png; sourceTree = "<group>"; };
+		23CAEC371D1BDC6800C689B8 /* movieList_placeholder_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_7.png; sourceTree = "<group>"; };
+		23CAEC381D1BDC6800C689B8 /* movieList_placeholder_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_8.png; sourceTree = "<group>"; };
+		23CAEC391D1BDC6800C689B8 /* movieList_placeholder_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieList_placeholder_9.png; sourceTree = "<group>"; };
+		23CAEC471D1BE13300C689B8 /* music_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_cover.png; sourceTree = "<group>"; };
+		23CAEC481D1BE13300C689B8 /* music_cover_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_cover_small.png; sourceTree = "<group>"; };
+		23CAEC4C1D1BE40500C689B8 /* personalBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personalBackgroundImage.png; sourceTree = "<group>"; };
+		23CAEC4F1D1BE5D700C689B8 /* home_cover_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_cover_placeholder.png; sourceTree = "<group>"; };
+		23D24E5F1C9036BD00761AD9 /* MLBSerialCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSerialCollectionView.h; sourceTree = "<group>"; };
+		23D24E601C9036BD00761AD9 /* MLBSerialCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSerialCollectionView.m; sourceTree = "<group>"; };
+		23D24E621C90389000761AD9 /* MLBSerialCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSerialCCell.h; sourceTree = "<group>"; };
+		23D24E631C90389000761AD9 /* MLBSerialCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSerialCCell.m; sourceTree = "<group>"; };
+		23D24E651C903C9B00761AD9 /* MLBSerialList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSerialList.h; sourceTree = "<group>"; };
+		23D24E661C903C9B00761AD9 /* MLBSerialList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSerialList.m; sourceTree = "<group>"; };
+		23DA37371CC72F1C00B6BFFD /* MLBSearchRead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSearchRead.h; sourceTree = "<group>"; };
+		23DA37381CC72F1C00B6BFFD /* MLBSearchRead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSearchRead.m; sourceTree = "<group>"; };
+		23DA373B1CC72FE300B6BFFD /* MLBSearchPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSearchPictureCell.h; sourceTree = "<group>"; };
+		23DA373C1CC72FE300B6BFFD /* MLBSearchPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSearchPictureCell.m; sourceTree = "<group>"; };
+		23DA373E1CC7335900B6BFFD /* MLBSearchReadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSearchReadCell.h; sourceTree = "<group>"; };
+		23DA373F1CC7335900B6BFFD /* MLBSearchReadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSearchReadCell.m; sourceTree = "<group>"; };
+		23DA37411CC7443200B6BFFD /* MLBSearchMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSearchMusicCell.h; sourceTree = "<group>"; };
+		23DA37421CC7443200B6BFFD /* MLBSearchMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSearchMusicCell.m; sourceTree = "<group>"; };
+		23DA37441CC7477500B6BFFD /* MLBSearchAuthorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSearchAuthorCell.h; sourceTree = "<group>"; };
+		23DA37451CC7477500B6BFFD /* MLBSearchAuthorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSearchAuthorCell.m; sourceTree = "<group>"; };
+		23DA37471CC7550200B6BFFD /* MLBSearchMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSearchMovieCell.h; sourceTree = "<group>"; };
+		23DA37481CC7550200B6BFFD /* MLBSearchMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSearchMovieCell.m; sourceTree = "<group>"; };
+		23DA374A1CC7632200B6BFFD /* MLBSingleHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSingleHomeViewController.h; sourceTree = "<group>"; };
+		23DA374B1CC7632200B6BFFD /* MLBSingleHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSingleHomeViewController.m; sourceTree = "<group>"; };
+		23DD14111C97A58C0092B495 /* MLBSingleReadDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBSingleReadDetailsViewController.h; sourceTree = "<group>"; };
+		23DD14121C97A58C0092B495 /* MLBSingleReadDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBSingleReadDetailsViewController.m; sourceTree = "<group>"; };
+		23DD452A1D88395000D8049D /* MLBReadDetailsAuthorInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadDetailsAuthorInfoCell.h; sourceTree = "<group>"; };
+		23DD452B1D88395000D8049D /* MLBReadDetailsAuthorInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadDetailsAuthorInfoCell.m; sourceTree = "<group>"; };
+		23E176361C7C467E0052B2A9 /* MLBCommentList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBCommentList.h; sourceTree = "<group>"; };
+		23E176371C7C467E0052B2A9 /* MLBCommentList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBCommentList.m; sourceTree = "<group>"; };
+		23E176391C7C471A0052B2A9 /* MLBComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBComment.h; sourceTree = "<group>"; };
+		23E1763A1C7C471A0052B2A9 /* MLBComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBComment.m; sourceTree = "<group>"; };
+		23E1763C1C7C47CA0052B2A9 /* MLBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBUser.h; sourceTree = "<group>"; };
+		23E1763D1C7C47CA0052B2A9 /* MLBUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBUser.m; sourceTree = "<group>"; };
+		23E1763F1C7C4A6E0052B2A9 /* MLBRelatedMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBRelatedMusic.h; sourceTree = "<group>"; };
+		23E176401C7C4A6E0052B2A9 /* MLBRelatedMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBRelatedMusic.m; sourceTree = "<group>"; };
+		23E651D41C8BF8AA00E9B23B /* MLBCommentListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBCommentListViewController.h; sourceTree = "<group>"; };
+		23E651D51C8BF8AA00E9B23B /* MLBCommentListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBCommentListViewController.m; sourceTree = "<group>"; };
+		23ED65D11D8AD9B600CD9E74 /* MLBReadDetailsQuestionTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadDetailsQuestionTitleCell.h; sourceTree = "<group>"; };
+		23ED65D21D8AD9B600CD9E74 /* MLBReadDetailsQuestionTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadDetailsQuestionTitleCell.m; sourceTree = "<group>"; };
+		23ED65D41D8AD9D700CD9E74 /* MLBReadDetailsQuestionAnswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBReadDetailsQuestionAnswerCell.h; sourceTree = "<group>"; };
+		23ED65D51D8AD9D700CD9E74 /* MLBReadDetailsQuestionAnswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBReadDetailsQuestionAnswerCell.m; sourceTree = "<group>"; };
+		23F202841C9803FE00F586C1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		23FA09371C7C0C0A0068C97D /* MLBMusicDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMusicDetails.h; sourceTree = "<group>"; };
+		23FA09381C7C0C0A0068C97D /* MLBMusicDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBMusicDetails.m; sourceTree = "<group>"; };
+		23FC0B6F1C7E9A310019A16E /* MLBLiginOptsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBLiginOptsViewController.h; sourceTree = "<group>"; };
+		23FC0B701C7E9A310019A16E /* MLBLiginOptsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBLiginOptsViewController.m; sourceTree = "<group>"; };
+		23FC0B731C7EABDF0019A16E /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		23FC0B741C7EABDF0019A16E /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		23FC0B761C7EBFD00019A16E /* MLBPoilcyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBPoilcyViewController.h; sourceTree = "<group>"; };
+		23FC0B771C7EBFD00019A16E /* MLBPoilcyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBPoilcyViewController.m; sourceTree = "<group>"; };
+		AE35E8E8B042DD82FB5F3253 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD56C7CB2A277632076FF04B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23AA057B1C78A77B0043ACE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F202851C9803FE00F586C1 /* CoreLocation.framework in Frameworks */,
+				FBEEFD0C7290C70F09C3741C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2308604A1C992B7D007069EC /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2308604B1C993034007069EC /* MLBUserHomeViewController.h */,
+				2308604C1C993034007069EC /* MLBUserHomeViewController.m */,
+				23C906581C99549D009E9B3E /* MLBSettingsViewController.h */,
+				23C906591C99549D009E9B3E /* MLBSettingsViewController.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		2308604E1C9934B1007069EC /* User */ = {
+			isa = PBXGroup;
+			children = (
+				23C9065E1C995DCE009E9B3E /* Cells */,
+				2308604F1C9934C6007069EC /* MLBUserHomeHeaderView.h */,
+				230860501C9934C6007069EC /* MLBUserHomeHeaderView.m */,
+				23C9065B1C995C0B009E9B3E /* MLBSettingsSectionHeaderView.h */,
+				23C9065C1C995C0B009E9B3E /* MLBSettingsSectionHeaderView.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		230860521C99371F007069EC /* MLBTapImageView */ = {
+			isa = PBXGroup;
+			children = (
+				230860531C993736007069EC /* MLBTapImageView.h */,
+				230860541C993736007069EC /* MLBTapImageView.m */,
+			);
+			path = MLBTapImageView;
+			sourceTree = "<group>";
+		};
+		230860561C993FF0007069EC /* ParallaxTableViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				230860571C993FF0007069EC /* ParallaxHeaderView.h */,
+				230860581C993FF0007069EC /* ParallaxHeaderView.m */,
+				230860591C993FF0007069EC /* UIImage+ImageEffects.h */,
+				2308605A1C993FF0007069EC /* UIImage+ImageEffects.m */,
+			);
+			path = ParallaxTableViewHeader;
+			sourceTree = "<group>";
+		};
+		238557F81C80507200848919 /* AAPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				238557F91C80507200848919 /* AAPullToRefresh.h */,
+				238557FA1C80507200848919 /* AAPullToRefresh.m */,
+			);
+			path = AAPullToRefresh;
+			sourceTree = "<group>";
+		};
+		239536941C7DA03B00FFA93C /* XHRealTimeBlur */ = {
+			isa = PBXGroup;
+			children = (
+				239536951C7DA03B00FFA93C /* XHRealTimeBlur.h */,
+				239536961C7DA03B00FFA93C /* XHRealTimeBlur.m */,
+			);
+			path = XHRealTimeBlur;
+			sourceTree = "<group>";
+		};
+		2395369B1C7DA77200FFA93C /* PopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2395369C1C7DA77200FFA93C /* GlowImageView.h */,
+				2395369D1C7DA77200FFA93C /* GlowImageView.m */,
+				2395369E1C7DA77200FFA93C /* MenuButton.h */,
+				2395369F1C7DA77200FFA93C /* MenuButton.m */,
+				239536A01C7DA77200FFA93C /* MenuItem.h */,
+				239536A11C7DA77200FFA93C /* MenuItem.m */,
+				239536A21C7DA77200FFA93C /* PopMenu.h */,
+				239536A31C7DA77200FFA93C /* PopMenu.m */,
+			);
+			path = PopMenu;
+			sourceTree = "<group>";
+		};
+		239536AC1C7DCF8400FFA93C /* Introduce */ = {
+			isa = PBXGroup;
+			children = (
+				239536AD1C7DCF8400FFA93C /* MLBIntroduceViewController.h */,
+				239536AE1C7DCF8400FFA93C /* MLBIntroduceViewController.m */,
+			);
+			path = Introduce;
+			sourceTree = "<group>";
+		};
+		239536B01C7DCFA900FFA93C /* GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				239536B11C7DCFA900FFA93C /* 1.gif */,
+				239536B21C7DCFA900FFA93C /* 2.gif */,
+				239536B31C7DCFA900FFA93C /* 3.gif */,
+				239536B41C7DCFA900FFA93C /* 4.gif */,
+				239536B51C7DCFA900FFA93C /* my_player_action.gif */,
+				239536B61C7DCFA900FFA93C /* my_player_action_white.gif */,
+				239536B71C7DCFA900FFA93C /* my_player_stop.gif */,
+				239536B81C7DCFA900FFA93C /* my_player_stop_white.gif */,
+			);
+			path = GIFs;
+			sourceTree = "<group>";
+		};
+		239F031A1C7964E700B03AF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23CAEC2C1D1BDC6800C689B8 /* PNG */,
+				23AB7F521C79DE8F00EF21EA /* Fonts */,
+				239536B01C7DCFA900FFA93C /* GIFs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		239F03361C79846E00B03AF3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2374B32C1C8F125E00E37EDF /* MLBMovieListItemCCell.h */,
+				2374B32D1C8F125E00E37EDF /* MLBMovieListItemCCell.m */,
+				2374B3241C8EF53D00E37EDF /* MLBMoviePosterCCell.h */,
+				2374B3251C8EF53D00E37EDF /* MLBMoviePosterCCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		23AA05751C78A77B0043ACE7 = {
+			isa = PBXGroup;
+			children = (
+				23AA05801C78A77C0043ACE7 /* MyOne3 */,
+				23AA057F1C78A77C0043ACE7 /* Products */,
+				4302A19B41AA293E3AF21D70 /* Pods */,
+				2A2917239ECE56534122759F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23AA057F1C78A77C0043ACE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23AA057E1C78A77C0043ACE7 /* MyOne3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23AA05801C78A77C0043ACE7 /* MyOne3 */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05B11C78BCC70043ACE7 /* Vendors */,
+				23AA05A51C78BCC70043ACE7 /* CustomViews */,
+				23AA05AB1C78BCC70043ACE7 /* Models */,
+				23AA05B21C78BCC70043ACE7 /* ViewControllers */,
+				23AA05991C78BCC70043ACE7 /* Common */,
+				23AA05841C78A77C0043ACE7 /* AppDelegate.h */,
+				23AA05851C78A77C0043ACE7 /* AppDelegate.m */,
+				23AA058D1C78A77C0043ACE7 /* Assets.xcassets */,
+				23AA058F1C78A77C0043ACE7 /* LaunchScreen.storyboard */,
+				239F031A1C7964E700B03AF3 /* Resources */,
+				23AA05811C78A77C0043ACE7 /* Supporting Files */,
+			);
+			path = MyOne3;
+			sourceTree = "<group>";
+		};
+		23AA05811C78A77C0043ACE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05921C78A77C0043ACE7 /* Info.plist */,
+				23AA05821C78A77C0043ACE7 /* main.m */,
+				23AA05BE1C78BD800043ACE7 /* MyOne3.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23AA05991C78BCC70043ACE7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				23AA059A1C78BCC70043ACE7 /* Categories */,
+				23AA05A11C78BCC70043ACE7 /* Headers */,
+				23AA05A31C78BCC70043ACE7 /* Network */,
+				23AA05A41C78BCC70043ACE7 /* Toolkit */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		23AA059A1C78BCC70043ACE7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				231CEB1C1D86CA4600CABDFF /* UINavigationController+MLBNavigationShouldPopExtention.h */,
+				231CEB1D1D86CA4600CABDFF /* UINavigationController+MLBNavigationShouldPopExtention.m */,
+				23ACBCDD1D824C71001F8DB4 /* UIView+MLBShowHUD.h */,
+				23ACBCDE1D824C71001F8DB4 /* UIView+MLBShowHUD.m */,
+				23FC0B731C7EABDF0019A16E /* UIImage+Common.h */,
+				23FC0B741C7EABDF0019A16E /* UIImage+Common.m */,
+				23AA05BF1C78BE390043ACE7 /* UIView+Frame.h */,
+				23AA05C01C78BE390043ACE7 /* UIView+Frame.m */,
+				23AA059B1C78BCC70043ACE7 /* MTLModel+MANullableScalar.h */,
+				23AA059C1C78BCC70043ACE7 /* MTLModel+MANullableScalar.m */,
+				23AA059D1C78BCC70043ACE7 /* NSString+MLBUtilities.h */,
+				23AA059E1C78BCC70043ACE7 /* NSString+MLBUtilities.m */,
+				23AA059F1C78BCC70043ACE7 /* UIColor+MLBUtilities.h */,
+				23AA05A01C78BCC70043ACE7 /* UIColor+MLBUtilities.m */,
+				239F033D1C798DA000B03AF3 /* UIImageView+MLBSDImageLoader.h */,
+				239F033E1C798DA000B03AF3 /* UIImageView+MLBSDImageLoader.m */,
+				23ACBCE31D82542F001F8DB4 /* UIScrollView+MLBEndMJRefreshing.h */,
+				23ACBCE41D82542F001F8DB4 /* UIScrollView+MLBEndMJRefreshing.m */,
+				23ACBCE61D825D54001F8DB4 /* UIView+MyOne.h */,
+				23ACBCE71D825D54001F8DB4 /* UIView+MyOne.m */,
+				23ACBCE91D825FC8001F8DB4 /* UIViewController+MyOne.h */,
+				23ACBCEA1D825FC8001F8DB4 /* UIViewController+MyOne.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		23AA05A11C78BCC70043ACE7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05A21C78BCC70043ACE7 /* MLBMacros.h */,
+				23AA05D21C78C4880043ACE7 /* Constants.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		23AA05A31C78BCC70043ACE7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				239F032C1C7975A500B03AF3 /* MLBApiConstants.h */,
+				239F03331C797C6500B03AF3 /* MLBHTTPRequester.h */,
+				239F03341C797C6500B03AF3 /* MLBHTTPRequester.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		23AA05A41C78BCC70043ACE7 /* Toolkit */ = {
+			isa = PBXGroup;
+			children = (
+				239F03171C79628100B03AF3 /* MLBUIFactory.h */,
+				239F03181C79628100B03AF3 /* MLBUIFactory.m */,
+				230CC8C91C7B450500EAA09C /* MLBUtilities.h */,
+				230CC8CA1C7B450500EAA09C /* MLBUtilities.m */,
+			);
+			path = Toolkit;
+			sourceTree = "<group>";
+		};
+		23AA05A51C78BCC70043ACE7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05A61C78BCC70043ACE7 /* Base */,
+				23C73CC91C7C93B700B9F412 /* Common */,
+				23AA05A71C78BCC70043ACE7 /* Home */,
+				23AA05AA1C78BCC70043ACE7 /* Read */,
+				23AA05A91C78BCC70043ACE7 /* Music */,
+				23AA05A81C78BCC70043ACE7 /* Movie */,
+				2308604E1C9934B1007069EC /* User */,
+				23DA373A1CC72F2A00B6BFFD /* Search */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		23AA05A61C78BCC70043ACE7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				239F03371C79847E00B03AF3 /* MLBBaseCell.h */,
+				239F03381C79847E00B03AF3 /* MLBBaseCell.m */,
+				23B585431C7EF81200B325AF /* MLBBaseView.h */,
+				23B585441C7EF81200B325AF /* MLBBaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		23AA05A71C78BCC70043ACE7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				23AF416B1CC5182E00957DFD /* Layout */,
+				23AF41631CC50EED00957DFD /* Cells */,
+				230CC8C61C7B33D300EAA09C /* MLBHomeView.h */,
+				230CC8C71C7B33D300EAA09C /* MLBHomeView.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		23AA05A81C78BCC70043ACE7 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				239F03361C79846E00B03AF3 /* Cells */,
+				23BAAEA41C82AB1D00AA6C87 /* MLBScoreView.h */,
+				23BAAEA51C82AB1D00AA6C87 /* MLBScoreView.m */,
+				23BAAEA71C832C1100AA6C87 /* MLBMovieDetailsHeaderView.h */,
+				23BAAEA81C832C1100AA6C87 /* MLBMovieDetailsHeaderView.m */,
+				235A618A1C8DB212008FE79B /* MLBTicketsGrossView.h */,
+				235A618B1C8DB212008FE79B /* MLBTicketsGrossView.m */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		23AA05A91C78BCC70043ACE7 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				23C73CCE1C7CA3EE00B9F412 /* Cells */,
+				2345EAF91C7B554900F20BDF /* MLBMusicView.h */,
+				2345EAFA1C7B554900F20BDF /* MLBMusicView.m */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		23AA05AA1C78BCC70043ACE7 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				23AD5FC81C7FEE9500D80701 /* Cells */,
+				23AD5FCB1C7FEE9500D80701 /* MLBReadBaseView.h */,
+				23AD5FCC1C7FEE9500D80701 /* MLBReadBaseView.m */,
+				23AD5FCF1C7FF87200D80701 /* MLBReadDetailsView.h */,
+				23AD5FD01C7FF87200D80701 /* MLBReadDetailsView.m */,
+				23C174C81C81BDA000C071A1 /* MLBTopTenArticalCell.h */,
+				23C174C91C81BDA000C071A1 /* MLBTopTenArticalCell.m */,
+				23D24E5F1C9036BD00761AD9 /* MLBSerialCollectionView.h */,
+				23D24E601C9036BD00761AD9 /* MLBSerialCollectionView.m */,
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		23AA05AB1C78BCC70043ACE7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05AC1C78BCC70043ACE7 /* Base */,
+				23AB7F5F1C79F11A00EF21EA /* Common */,
+				23AA05AD1C78BCC70043ACE7 /* Home */,
+				23AA05B01C78BCC70043ACE7 /* Read */,
+				23AA05AF1C78BCC70043ACE7 /* Music */,
+				23AA05AE1C78BCC70043ACE7 /* Movie */,
+				23DA37361CC72F1C00B6BFFD /* Search */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23AA05AC1C78BCC70043ACE7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				239F032D1C7977E000B03AF3 /* MLBBaseModel.h */,
+				239F032E1C7977E000B03AF3 /* MLBBaseModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		23AA05AD1C78BCC70043ACE7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				230CC8C31C7B30FC00EAA09C /* MLBHomeItem.h */,
+				230CC8C41C7B30FC00EAA09C /* MLBHomeItem.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		23AA05AE1C78BCC70043ACE7 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				239F03301C79790200B03AF3 /* MLBMovieListItem.h */,
+				239F03311C79790200B03AF3 /* MLBMovieListItem.m */,
+				2325E7AD1C86CF2B00BA9544 /* MLBMovieDetails.h */,
+				2325E7AE1C86CF2B00BA9544 /* MLBMovieDetails.m */,
+				2325E7B01C86DA6100BA9544 /* MLBMovieStoryList.h */,
+				2325E7B11C86DA6100BA9544 /* MLBMovieStoryList.m */,
+				2325E7B31C86DA9600BA9544 /* MLBMovieStory.h */,
+				2325E7B41C86DA9600BA9544 /* MLBMovieStory.m */,
+				2325E7B61C86DC9700BA9544 /* MLBMovieReviewList.h */,
+				2325E7B71C86DC9700BA9544 /* MLBMovieReviewList.m */,
+				2325E7B91C86DCA100BA9544 /* MLBMovieReview.h */,
+				2325E7BA1C86DCA100BA9544 /* MLBMovieReview.m */,
+				2374B3291C8EFCC500E37EDF /* MLBMoviePoster.h */,
+				2374B32A1C8EFCC500E37EDF /* MLBMoviePoster.m */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		23AA05AF1C78BCC70043ACE7 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				23FA09371C7C0C0A0068C97D /* MLBMusicDetails.h */,
+				23FA09381C7C0C0A0068C97D /* MLBMusicDetails.m */,
+				23E1763F1C7C4A6E0052B2A9 /* MLBRelatedMusic.h */,
+				23E176401C7C4A6E0052B2A9 /* MLBRelatedMusic.m */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		23AA05B01C78BCC70043ACE7 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				23AD5FB91C7FEDF300D80701 /* MLBReadCarouselItem.h */,
+				23AD5FBA1C7FEDF300D80701 /* MLBReadCarouselItem.m */,
+				23AD5FBD1C7FEDF300D80701 /* MLBReadIndex.h */,
+				23AD5FBE1C7FEDF300D80701 /* MLBReadIndex.m */,
+				23AD5FBB1C7FEDF300D80701 /* MLBReadEssay.h */,
+				23AD5FBC1C7FEDF300D80701 /* MLBReadEssay.m */,
+				23AD5FDC1C8027CD00D80701 /* MLBReadEssayDetails.h */,
+				23AD5FDD1C8027CD00D80701 /* MLBReadEssayDetails.m */,
+				23AD5FC11C7FEDF300D80701 /* MLBReadSerial.h */,
+				23AD5FC21C7FEDF300D80701 /* MLBReadSerial.m */,
+				23BFAC7C1C8088670014A977 /* MLBReadSerialDetails.h */,
+				23BFAC7D1C8088670014A977 /* MLBReadSerialDetails.m */,
+				23AD5FBF1C7FEDF300D80701 /* MLBReadQuestion.h */,
+				23AD5FC01C7FEDF300D80701 /* MLBReadQuestion.m */,
+				23BFAC7F1C808C590014A977 /* MLBReadQuestionDetails.h */,
+				23BFAC801C808C590014A977 /* MLBReadQuestionDetails.m */,
+				23C174C51C819D0A00C071A1 /* MLBTopTenArtical.h */,
+				23C174C61C819D0A00C071A1 /* MLBTopTenArtical.m */,
+				23D24E651C903C9B00761AD9 /* MLBSerialList.h */,
+				23D24E661C903C9B00761AD9 /* MLBSerialList.m */,
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		23AA05B11C78BCC70043ACE7 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				23AF41591CC4FB5500957DFD /* DZNSegmentedControl */,
+				230860561C993FF0007069EC /* ParallaxTableViewHeader */,
+				23BAAEA01C82A6C500AA6C87 /* MZTimerLabel */,
+				238557F81C80507200848919 /* AAPullToRefresh */,
+				23AD5FD51C80000500D80701 /* MZSelectableLabel */,
+				239536941C7DA03B00FFA93C /* XHRealTimeBlur */,
+				2395369B1C7DA77200FFA93C /* PopMenu */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		23AA05B21C78BCC70043ACE7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05B31C78BCC70043ACE7 /* Base */,
+				23E651D31C8BF84D00E9B23B /* Common */,
+				239536AC1C7DCF8400FFA93C /* Introduce */,
+				23AA05C21C78BF020043ACE7 /* TabBar */,
+				23FC0B6E1C7E9A0B0019A16E /* LoginRegister */,
+				23AA05B41C78BCC70043ACE7 /* Home */,
+				23AA05B71C78BCC70043ACE7 /* Read */,
+				23AA05B61C78BCC70043ACE7 /* Music */,
+				23AA05B51C78BCC70043ACE7 /* Movie */,
+				2308604A1C992B7D007069EC /* User */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		23AA05B31C78BCC70043ACE7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05BB1C78BD0D0043ACE7 /* MLBBaseViewController.h */,
+				23AA05BC1C78BD0D0043ACE7 /* MLBBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		23AA05B41C78BCC70043ACE7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05C61C78BFB40043ACE7 /* MLBHomeViewController.h */,
+				23AA05C71C78BFB40043ACE7 /* MLBHomeViewController.m */,
+				23AF41601CC5099100957DFD /* MLBHomePreviousViewController.h */,
+				23AF41611CC5099100957DFD /* MLBHomePreviousViewController.m */,
+				23DA374A1CC7632200B6BFFD /* MLBSingleHomeViewController.h */,
+				23DA374B1CC7632200B6BFFD /* MLBSingleHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		23AA05B51C78BCC70043ACE7 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05CF1C78BFE50043ACE7 /* MLBMovieViewController.h */,
+				23AA05D01C78BFE50043ACE7 /* MLBMovieViewController.m */,
+				23BAAE9A1C82A3D400AA6C87 /* MLBMovieDetailsViewController.h */,
+				23BAAE9B1C82A3D400AA6C87 /* MLBMovieDetailsViewController.m */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		23AA05B61C78BCC70043ACE7 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05CC1C78BFD00043ACE7 /* MLBMusicViewController.h */,
+				23AA05CD1C78BFD00043ACE7 /* MLBMusicViewController.m */,
+				23957B731C9A93E2003FBB88 /* MLBMusicRelatedViewController.h */,
+				23957B741C9A93E2003FBB88 /* MLBMusicRelatedViewController.m */,
+				236886381CC64E4C00A51301 /* MLBMusicPreviousViewController.h */,
+				236886391CC64E4C00A51301 /* MLBMusicPreviousViewController.m */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		23AA05B71C78BCC70043ACE7 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05C91C78BFC20043ACE7 /* MLBReadViewController.h */,
+				23AA05CA1C78BFC20043ACE7 /* MLBReadViewController.m */,
+				23AD5FB61C7FEDE200D80701 /* MLBReadDetailsViewController.h */,
+				23AD5FB71C7FEDE200D80701 /* MLBReadDetailsViewController.m */,
+				23C174C21C81999B00C071A1 /* MLBTopTenArticalViewController.h */,
+				23C174C31C81999B00C071A1 /* MLBTopTenArticalViewController.m */,
+				23DD14111C97A58C0092B495 /* MLBSingleReadDetailsViewController.h */,
+				23DD14121C97A58C0092B495 /* MLBSingleReadDetailsViewController.m */,
+				2368863B1CC6559900A51301 /* MLBReadPreviousViewController.h */,
+				2368863C1CC6559900A51301 /* MLBReadPreviousViewController.m */,
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		23AA05C21C78BF020043ACE7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				23AA05C31C78BF2F0043ACE7 /* MLBTabBarController.h */,
+				23AA05C41C78BF2F0043ACE7 /* MLBTabBarController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		23AB7F521C79DE8F00EF21EA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				23AB7F531C79DE8F00EF21EA /* Bradley Hand Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		23AB7F5F1C79F11A00EF21EA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				23AB7F601C79F12B00EF21EA /* MLBAuthor.h */,
+				23AB7F611C79F12B00EF21EA /* MLBAuthor.m */,
+				23E176361C7C467E0052B2A9 /* MLBCommentList.h */,
+				23E176371C7C467E0052B2A9 /* MLBCommentList.m */,
+				23E176391C7C471A0052B2A9 /* MLBComment.h */,
+				23E1763A1C7C471A0052B2A9 /* MLBComment.m */,
+				23E1763C1C7C47CA0052B2A9 /* MLBUser.h */,
+				23E1763D1C7C47CA0052B2A9 /* MLBUser.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		23AD5FC81C7FEE9500D80701 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				23AD5FC91C7FEE9500D80701 /* MLBReadBaseCell.h */,
+				23AD5FCA1C7FEE9500D80701 /* MLBReadBaseCell.m */,
+				23D24E621C90389000761AD9 /* MLBSerialCCell.h */,
+				23D24E631C90389000761AD9 /* MLBSerialCCell.m */,
+				2368863E1CC657B800A51301 /* MLBReadPreviousCell.h */,
+				2368863F1CC657B800A51301 /* MLBReadPreviousCell.m */,
+				236C84F91D87A08900ED3BB5 /* MLBReadDetailsAuthorCell.h */,
+				236C84FA1D87A08900ED3BB5 /* MLBReadDetailsAuthorCell.m */,
+				236C84FC1D87BB5F00ED3BB5 /* MLBReadDetailsTitleAndOperationCell.h */,
+				236C84FD1D87BB5F00ED3BB5 /* MLBReadDetailsTitleAndOperationCell.m */,
+				236C84FF1D87C77B00ED3BB5 /* MLBReadDetailsContentCell.h */,
+				236C85001D87C77B00ED3BB5 /* MLBReadDetailsContentCell.m */,
+				23DD452A1D88395000D8049D /* MLBReadDetailsAuthorInfoCell.h */,
+				23DD452B1D88395000D8049D /* MLBReadDetailsAuthorInfoCell.m */,
+				23ED65D11D8AD9B600CD9E74 /* MLBReadDetailsQuestionTitleCell.h */,
+				23ED65D21D8AD9B600CD9E74 /* MLBReadDetailsQuestionTitleCell.m */,
+				23ED65D41D8AD9D700CD9E74 /* MLBReadDetailsQuestionAnswerCell.h */,
+				23ED65D51D8AD9D700CD9E74 /* MLBReadDetailsQuestionAnswerCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		23AD5FD51C80000500D80701 /* MZSelectableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				23AD5FD61C80000500D80701 /* MZSelectableLabel.h */,
+				23AD5FD71C80000500D80701 /* MZSelectableLabel.m */,
+				23AD5FD81C80000500D80701 /* UIColor+Equalable.h */,
+				23AD5FD91C80000500D80701 /* UIColor+Equalable.m */,
+			);
+			path = MZSelectableLabel;
+			sourceTree = "<group>";
+		};
+		23AF41591CC4FB5500957DFD /* DZNSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				23AF415A1CC4FB5500957DFD /* DZNSegmentedControl.h */,
+				23AF415B1CC4FB5500957DFD /* DZNSegmentedControl.m */,
+				23AF415C1CC4FB5500957DFD /* UIScrollView+DZNSegmentedControl.h */,
+				23AF415D1CC4FB5500957DFD /* UIScrollView+DZNSegmentedControl.m */,
+			);
+			path = DZNSegmentedControl;
+			sourceTree = "<group>";
+		};
+		23AF41631CC50EED00957DFD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				23AF41641CC50F2500957DFD /* MLBHomeCCell.h */,
+				23AF41651CC50F2500957DFD /* MLBHomeCCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		23AF416B1CC5182E00957DFD /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				23AF416F1CC51AA800957DFD /* DDCollectionViewFlowLayout.h */,
+				23AF41701CC51AA800957DFD /* DDCollectionViewFlowLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		23BAAEA01C82A6C500AA6C87 /* MZTimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				23BAAEA11C82A6C500AA6C87 /* MZTimerLabel.h */,
+				23BAAEA21C82A6C500AA6C87 /* MZTimerLabel.m */,
+			);
+			path = MZTimerLabel;
+			sourceTree = "<group>";
+		};
+		23C73CC91C7C93B700B9F412 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				230860521C99371F007069EC /* MLBTapImageView */,
+				23C73CCA1C7C93B700B9F412 /* Cells */,
+				23AD5FD21C7FFBD000D80701 /* MLBChargeEditorView.h */,
+				23AD5FD31C7FFBD000D80701 /* MLBChargeEditorView.m */,
+				23C174BE1C8170C000C071A1 /* MLBCommonHeaderView.h */,
+				23C174BF1C8170C000C071A1 /* MLBCommonHeaderView.m */,
+				23C174BC1C8170C000C071A1 /* MLBCommonFooterView.h */,
+				23C174BD1C8170C000C071A1 /* MLBCommonFooterView.m */,
+				230860471C98F427007069EC /* MLBMusicControlView.h */,
+				230860481C98F427007069EC /* MLBMusicControlView.m */,
+				239BC56C1D8931E400AAF364 /* MLBCommonHeaderFooterView.h */,
+				239BC56D1D8931E400AAF364 /* MLBCommonHeaderFooterView.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		23C73CCA1C7C93B700B9F412 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				23C73CCB1C7C944900B9F412 /* MLBCommentCell.h */,
+				23C73CCC1C7C944900B9F412 /* MLBCommentCell.m */,
+				2357A75F1C7D72E70036F7DC /* MLBNoneMessageCell.h */,
+				2357A7601C7D72E70036F7DC /* MLBNoneMessageCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		23C73CCE1C7CA3EE00B9F412 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				23C73CCF1C7CA40500B9F412 /* MLBRelatedMusicCell.h */,
+				23C73CD01C7CA40500B9F412 /* MLBRelatedMusicCell.m */,
+				234BF4B11D8C15A300081250 /* MLBMusicContentCell.h */,
+				234BF4B21D8C15A300081250 /* MLBMusicContentCell.m */,
+				234321241D910A25003C2078 /* MLBRelatedMusicCollectionCell.h */,
+				234321251D910A25003C2078 /* MLBRelatedMusicCollectionCell.m */,
+				234321271D910B08003C2078 /* MLBRelatedMusicCCell.h */,
+				234321281D910B08003C2078 /* MLBRelatedMusicCCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		23C9065E1C995DCE009E9B3E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				233A76061C9A5B2900D82879 /* MLBUserHomeCell.h */,
+				233A76071C9A5B2900D82879 /* MLBUserHomeCell.m */,
+				233A76091C9A7B3000D82879 /* MLBSettingsCell.h */,
+				233A760A1C9A7B3000D82879 /* MLBSettingsCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		23CAEC2C1D1BDC6800C689B8 /* PNG */ = {
+			isa = PBXGroup;
+			children = (
+				23CAEC4E1D1BE5D700C689B8 /* Home */,
+				23CAEC4B1D1BE40500C689B8 /* User */,
+				23CAEC461D1BE13300C689B8 /* Music */,
+				23CAEC2D1D1BDC6800C689B8 /* Movie */,
+			);
+			path = PNG;
+			sourceTree = "<group>";
+		};
+		23CAEC2D1D1BDC6800C689B8 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				23CAEC2E1D1BDC6800C689B8 /* movieList_placeholder_0.png */,
+				23CAEC2F1D1BDC6800C689B8 /* movieList_placeholder_1.png */,
+				23CAEC301D1BDC6800C689B8 /* movieList_placeholder_10.png */,
+				23CAEC311D1BDC6800C689B8 /* movieList_placeholder_11.png */,
+				23CAEC321D1BDC6800C689B8 /* movieList_placeholder_2.png */,
+				23CAEC331D1BDC6800C689B8 /* movieList_placeholder_3.png */,
+				23CAEC341D1BDC6800C689B8 /* movieList_placeholder_4.png */,
+				23CAEC351D1BDC6800C689B8 /* movieList_placeholder_5.png */,
+				23CAEC361D1BDC6800C689B8 /* movieList_placeholder_6.png */,
+				23CAEC371D1BDC6800C689B8 /* movieList_placeholder_7.png */,
+				23CAEC381D1BDC6800C689B8 /* movieList_placeholder_8.png */,
+				23CAEC391D1BDC6800C689B8 /* movieList_placeholder_9.png */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		23CAEC461D1BE13300C689B8 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				23CAEC471D1BE13300C689B8 /* music_cover.png */,
+				23CAEC481D1BE13300C689B8 /* music_cover_small.png */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		23CAEC4B1D1BE40500C689B8 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				23CAEC4C1D1BE40500C689B8 /* personalBackgroundImage.png */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		23CAEC4E1D1BE5D700C689B8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				23CAEC4F1D1BE5D700C689B8 /* home_cover_placeholder.png */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		23DA37361CC72F1C00B6BFFD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				23DA37371CC72F1C00B6BFFD /* MLBSearchRead.h */,
+				23DA37381CC72F1C00B6BFFD /* MLBSearchRead.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		23DA373A1CC72F2A00B6BFFD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				23DA373B1CC72FE300B6BFFD /* MLBSearchPictureCell.h */,
+				23DA373C1CC72FE300B6BFFD /* MLBSearchPictureCell.m */,
+				23DA373E1CC7335900B6BFFD /* MLBSearchReadCell.h */,
+				23DA373F1CC7335900B6BFFD /* MLBSearchReadCell.m */,
+				23DA37411CC7443200B6BFFD /* MLBSearchMusicCell.h */,
+				23DA37421CC7443200B6BFFD /* MLBSearchMusicCell.m */,
+				23DA37441CC7477500B6BFFD /* MLBSearchAuthorCell.h */,
+				23DA37451CC7477500B6BFFD /* MLBSearchAuthorCell.m */,
+				23DA37471CC7550200B6BFFD /* MLBSearchMovieCell.h */,
+				23DA37481CC7550200B6BFFD /* MLBSearchMovieCell.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		23E651D31C8BF84D00E9B23B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				23E651D41C8BF8AA00E9B23B /* MLBCommentListViewController.h */,
+				23E651D51C8BF8AA00E9B23B /* MLBCommentListViewController.m */,
+				23AF41561CC4E43400957DFD /* MLBPreviousViewController.h */,
+				23AF41571CC4E43400957DFD /* MLBPreviousViewController.m */,
+				236886411CC6717F00A51301 /* MLBSearchViewController.h */,
+				236886421CC6717F00A51301 /* MLBSearchViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		23FC0B6E1C7E9A0B0019A16E /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				23FC0B6F1C7E9A310019A16E /* MLBLiginOptsViewController.h */,
+				23FC0B701C7E9A310019A16E /* MLBLiginOptsViewController.m */,
+				23FC0B761C7EBFD00019A16E /* MLBPoilcyViewController.h */,
+				23FC0B771C7EBFD00019A16E /* MLBPoilcyViewController.m */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		2A2917239ECE56534122759F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23F202841C9803FE00F586C1 /* CoreLocation.framework */,
+				AE35E8E8B042DD82FB5F3253 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4302A19B41AA293E3AF21D70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06D7F8D6F9DD66A59F51E1A4 /* Pods.debug.xcconfig */,
+				DD56C7CB2A277632076FF04B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23AA057D1C78A77B0043ACE7 /* MyOne3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AA05951C78A77C0043ACE7 /* Build configuration list for PBXNativeTarget "MyOne3" */;
+			buildPhases = (
+				3AC80733AEBB6A45613503D0 /* Check Pods Manifest.lock */,
+				23AA057A1C78A77B0043ACE7 /* Sources */,
+				23AA057B1C78A77B0043ACE7 /* Frameworks */,
+				23AA057C1C78A77B0043ACE7 /* Resources */,
+				6180E35BB7904FF6440E8969 /* Embed Pods Frameworks */,
+				11B248AE5849F155E09819F4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyOne3;
+			productName = MyOne3;
+			productReference = 23AA057E1C78A77C0043ACE7 /* MyOne3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23AA05761C78A77B0043ACE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = meilbn;
+				TargetAttributes = {
+					23AA057D1C78A77B0043ACE7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 23AA05791C78A77B0043ACE7 /* Build configuration list for PBXProject "MyOne3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23AA05751C78A77B0043ACE7;
+			productRefGroup = 23AA057F1C78A77C0043ACE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23AA057D1C78A77B0043ACE7 /* MyOne3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23AA057C1C78A77B0043ACE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239536BB1C7DCFA900FFA93C /* 3.gif in Resources */,
+				239536C01C7DCFA900FFA93C /* my_player_stop_white.gif in Resources */,
+				23CAEC411D1BDC6800C689B8 /* movieList_placeholder_5.png in Resources */,
+				23CAEC451D1BDC6800C689B8 /* movieList_placeholder_9.png in Resources */,
+				239536BF1C7DCFA900FFA93C /* my_player_stop.gif in Resources */,
+				239536BE1C7DCFA900FFA93C /* my_player_action_white.gif in Resources */,
+				23AB7F541C79DE8F00EF21EA /* Bradley Hand Bold.ttf in Resources */,
+				239536BA1C7DCFA900FFA93C /* 2.gif in Resources */,
+				23CAEC501D1BE5D700C689B8 /* home_cover_placeholder.png in Resources */,
+				23CAEC3D1D1BDC6800C689B8 /* movieList_placeholder_11.png in Resources */,
+				23CAEC491D1BE13300C689B8 /* music_cover.png in Resources */,
+				23CAEC3F1D1BDC6800C689B8 /* movieList_placeholder_3.png in Resources */,
+				23CAEC3B1D1BDC6800C689B8 /* movieList_placeholder_1.png in Resources */,
+				23CAEC431D1BDC6800C689B8 /* movieList_placeholder_7.png in Resources */,
+				23AA05911C78A77C0043ACE7 /* LaunchScreen.storyboard in Resources */,
+				23CAEC3A1D1BDC6800C689B8 /* movieList_placeholder_0.png in Resources */,
+				23CAEC4D1D1BE40500C689B8 /* personalBackgroundImage.png in Resources */,
+				23CAEC3C1D1BDC6800C689B8 /* movieList_placeholder_10.png in Resources */,
+				23CAEC421D1BDC6800C689B8 /* movieList_placeholder_6.png in Resources */,
+				239536B91C7DCFA900FFA93C /* 1.gif in Resources */,
+				23CAEC401D1BDC6800C689B8 /* movieList_placeholder_4.png in Resources */,
+				23CAEC4A1D1BE13300C689B8 /* music_cover_small.png in Resources */,
+				23AA058E1C78A77C0043ACE7 /* Assets.xcassets in Resources */,
+				23CAEC3E1D1BDC6800C689B8 /* movieList_placeholder_2.png in Resources */,
+				239536BC1C7DCFA900FFA93C /* 4.gif in Resources */,
+				239536BD1C7DCFA900FFA93C /* my_player_action.gif in Resources */,
+				23CAEC441D1BDC6800C689B8 /* movieList_placeholder_8.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11B248AE5849F155E09819F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AC80733AEBB6A45613503D0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6180E35BB7904FF6440E8969 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23AA057A1C78A77B0043ACE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2325E7BB1C86DCA100BA9544 /* MLBMovieReview.m in Sources */,
+				239536971C7DA03B00FFA93C /* XHRealTimeBlur.m in Sources */,
+				239F03321C79790200B03AF3 /* MLBMovieListItem.m in Sources */,
+				23DA37391CC72F1C00B6BFFD /* MLBSearchRead.m in Sources */,
+				23C174C41C81999B00C071A1 /* MLBTopTenArticalViewController.m in Sources */,
+				239F032F1C7977E000B03AF3 /* MLBBaseModel.m in Sources */,
+				236C85011D87C77B00ED3BB5 /* MLBReadDetailsContentCell.m in Sources */,
+				23C73CD11C7CA40500B9F412 /* MLBRelatedMusicCell.m in Sources */,
+				23AD5FDA1C80000500D80701 /* MZSelectableLabel.m in Sources */,
+				236C84FE1D87BB5F00ED3BB5 /* MLBReadDetailsTitleAndOperationCell.m in Sources */,
+				23AA05CB1C78BFC20043ACE7 /* MLBReadViewController.m in Sources */,
+				236886401CC657B800A51301 /* MLBReadPreviousCell.m in Sources */,
+				23C73CCD1C7C944900B9F412 /* MLBCommentCell.m in Sources */,
+				23E1763E1C7C47CA0052B2A9 /* MLBUser.m in Sources */,
+				230860551C993736007069EC /* MLBTapImageView.m in Sources */,
+				239536A61C7DA77200FFA93C /* MenuItem.m in Sources */,
+				2368863A1CC64E4C00A51301 /* MLBMusicPreviousViewController.m in Sources */,
+				23AA05D11C78BFE50043ACE7 /* MLBMovieViewController.m in Sources */,
+				23ACBCDF1D824C71001F8DB4 /* UIView+MLBShowHUD.m in Sources */,
+				2308604D1C993034007069EC /* MLBUserHomeViewController.m in Sources */,
+				23DA374C1CC7632200B6BFFD /* MLBSingleHomeViewController.m in Sources */,
+				23AD5FD11C7FF87200D80701 /* MLBReadDetailsView.m in Sources */,
+				23AA05C81C78BFB40043ACE7 /* MLBHomeViewController.m in Sources */,
+				23ACBCE81D825D54001F8DB4 /* UIView+MyOne.m in Sources */,
+				230CC8C51C7B30FC00EAA09C /* MLBHomeItem.m in Sources */,
+				23DA37491CC7550200B6BFFD /* MLBSearchMovieCell.m in Sources */,
+				23DA37461CC7477500B6BFFD /* MLBSearchAuthorCell.m in Sources */,
+				23AD5FCD1C7FEE9500D80701 /* MLBReadBaseCell.m in Sources */,
+				23AA05BA1C78BCC70043ACE7 /* UIColor+MLBUtilities.m in Sources */,
+				236C84FB1D87A08900ED3BB5 /* MLBReadDetailsAuthorCell.m in Sources */,
+				230860491C98F427007069EC /* MLBMusicControlView.m in Sources */,
+				2345EAFB1C7B554900F20BDF /* MLBMusicView.m in Sources */,
+				2325E7B81C86DC9700BA9544 /* MLBMovieReviewList.m in Sources */,
+				23FC0B711C7E9A310019A16E /* MLBLiginOptsViewController.m in Sources */,
+				23BFAC811C808C590014A977 /* MLBReadQuestionDetails.m in Sources */,
+				239536A71C7DA77200FFA93C /* PopMenu.m in Sources */,
+				23C9065A1C99549D009E9B3E /* MLBSettingsViewController.m in Sources */,
+				23AD5FC61C7FEDF300D80701 /* MLBReadQuestion.m in Sources */,
+				23AD5FD41C7FFBD000D80701 /* MLBChargeEditorView.m in Sources */,
+				23E176381C7C467E0052B2A9 /* MLBCommentList.m in Sources */,
+				23FA09391C7C0C0A0068C97D /* MLBMusicDetails.m in Sources */,
+				23AD5FDE1C8027CD00D80701 /* MLBReadEssayDetails.m in Sources */,
+				23AF415E1CC4FB5500957DFD /* DZNSegmentedControl.m in Sources */,
+				23BAAE9C1C82A3D400AA6C87 /* MLBMovieDetailsViewController.m in Sources */,
+				23C174C71C819D0A00C071A1 /* MLBTopTenArtical.m in Sources */,
+				23AF41711CC51AA800957DFD /* DDCollectionViewFlowLayout.m in Sources */,
+				23AF41621CC5099100957DFD /* MLBHomePreviousViewController.m in Sources */,
+				23DD14131C97A58C0092B495 /* MLBSingleReadDetailsViewController.m in Sources */,
+				23DA37431CC7443200B6BFFD /* MLBSearchMusicCell.m in Sources */,
+				23AA05B91C78BCC70043ACE7 /* NSString+MLBUtilities.m in Sources */,
+				239536AF1C7DCF8400FFA93C /* MLBIntroduceViewController.m in Sources */,
+				234BF4B31D8C15A300081250 /* MLBMusicContentCell.m in Sources */,
+				23BAAEA91C832C1100AA6C87 /* MLBMovieDetailsHeaderView.m in Sources */,
+				23DA37401CC7335900B6BFFD /* MLBSearchReadCell.m in Sources */,
+				23DA373D1CC72FE300B6BFFD /* MLBSearchPictureCell.m in Sources */,
+				230CC8CB1C7B450500EAA09C /* MLBUtilities.m in Sources */,
+				23C174C11C8170C000C071A1 /* MLBCommonHeaderView.m in Sources */,
+				23B585451C7EF81200B325AF /* MLBBaseView.m in Sources */,
+				23AD5FC51C7FEDF300D80701 /* MLBReadIndex.m in Sources */,
+				2374B32E1C8F125E00E37EDF /* MLBMovieListItemCCell.m in Sources */,
+				2325E7B21C86DA6100BA9544 /* MLBMovieStoryList.m in Sources */,
+				239536A41C7DA77200FFA93C /* GlowImageView.m in Sources */,
+				23AA05CE1C78BFD00043ACE7 /* MLBMusicViewController.m in Sources */,
+				23BAAEA31C82A6C500AA6C87 /* MZTimerLabel.m in Sources */,
+				23AD5FB81C7FEDE200D80701 /* MLBReadDetailsViewController.m in Sources */,
+				236886431CC6717F00A51301 /* MLBSearchViewController.m in Sources */,
+				234321291D910B08003C2078 /* MLBRelatedMusicCCell.m in Sources */,
+				239F033F1C798DA000B03AF3 /* UIImageView+MLBSDImageLoader.m in Sources */,
+				239F03351C797C6500B03AF3 /* MLBHTTPRequester.m in Sources */,
+				230860511C9934C6007069EC /* MLBUserHomeHeaderView.m in Sources */,
+				23AF415F1CC4FB5500957DFD /* UIScrollView+DZNSegmentedControl.m in Sources */,
+				23FC0B781C7EBFD00019A16E /* MLBPoilcyViewController.m in Sources */,
+				23D24E671C903C9B00761AD9 /* MLBSerialList.m in Sources */,
+				230CC8C81C7B33D300EAA09C /* MLBHomeView.m in Sources */,
+				23FC0B751C7EABDF0019A16E /* UIImage+Common.m in Sources */,
+				239F03391C79847E00B03AF3 /* MLBBaseCell.m in Sources */,
+				231CEB1E1D86CA4600CABDFF /* UINavigationController+MLBNavigationShouldPopExtention.m in Sources */,
+				23AD5FC71C7FEDF300D80701 /* MLBReadSerial.m in Sources */,
+				23AA05861C78A77C0043ACE7 /* AppDelegate.m in Sources */,
+				23BFAC7E1C8088670014A977 /* MLBReadSerialDetails.m in Sources */,
+				239F03191C79628100B03AF3 /* MLBUIFactory.m in Sources */,
+				2308605C1C993FF0007069EC /* UIImage+ImageEffects.m in Sources */,
+				23ACBCE51D82542F001F8DB4 /* UIScrollView+MLBEndMJRefreshing.m in Sources */,
+				239536A51C7DA77200FFA93C /* MenuButton.m in Sources */,
+				23E1763B1C7C471A0052B2A9 /* MLBComment.m in Sources */,
+				23C9065D1C995C0B009E9B3E /* MLBSettingsSectionHeaderView.m in Sources */,
+				23AD5FCE1C7FEE9500D80701 /* MLBReadBaseView.m in Sources */,
+				23AB7F621C79F12B00EF21EA /* MLBAuthor.m in Sources */,
+				2368863D1CC6559900A51301 /* MLBReadPreviousViewController.m in Sources */,
+				23ACBCEB1D825FC8001F8DB4 /* UIViewController+MyOne.m in Sources */,
+				2325E7B51C86DA9600BA9544 /* MLBMovieStory.m in Sources */,
+				238557FB1C80507200848919 /* AAPullToRefresh.m in Sources */,
+				234321261D910A25003C2078 /* MLBRelatedMusicCollectionCell.m in Sources */,
+				23AD5FC31C7FEDF300D80701 /* MLBReadCarouselItem.m in Sources */,
+				2308605B1C993FF0007069EC /* ParallaxHeaderView.m in Sources */,
+				235A618C1C8DB212008FE79B /* MLBTicketsGrossView.m in Sources */,
+				23D24E611C9036BD00761AD9 /* MLBSerialCollectionView.m in Sources */,
+				23C174CA1C81BDA000C071A1 /* MLBTopTenArticalCell.m in Sources */,
+				23E176411C7C4A6E0052B2A9 /* MLBRelatedMusic.m in Sources */,
+				23AA05C51C78BF2F0043ACE7 /* MLBTabBarController.m in Sources */,
+				2374B32B1C8EFCC500E37EDF /* MLBMoviePoster.m in Sources */,
+				23AA05C11C78BE390043ACE7 /* UIView+Frame.m in Sources */,
+				23ED65D31D8AD9B600CD9E74 /* MLBReadDetailsQuestionTitleCell.m in Sources */,
+				23AA05BD1C78BD0D0043ACE7 /* MLBBaseViewController.m in Sources */,
+				23AF41661CC50F2500957DFD /* MLBHomeCCell.m in Sources */,
+				23E651D61C8BF8AA00E9B23B /* MLBCommentListViewController.m in Sources */,
+				23AA05831C78A77C0043ACE7 /* main.m in Sources */,
+				239BC56E1D8931E400AAF364 /* MLBCommonHeaderFooterView.m in Sources */,
+				23D24E641C90389000761AD9 /* MLBSerialCCell.m in Sources */,
+				23DD452C1D88395000D8049D /* MLBReadDetailsAuthorInfoCell.m in Sources */,
+				23AA05B81C78BCC70043ACE7 /* MTLModel+MANullableScalar.m in Sources */,
+				23AD5FC41C7FEDF300D80701 /* MLBReadEssay.m in Sources */,
+				23957B751C9A93E2003FBB88 /* MLBMusicRelatedViewController.m in Sources */,
+				23AD5FDB1C80000500D80701 /* UIColor+Equalable.m in Sources */,
+				23C174C01C8170C000C071A1 /* MLBCommonFooterView.m in Sources */,
+				233A760B1C9A7B3000D82879 /* MLBSettingsCell.m in Sources */,
+				2325E7AF1C86CF2B00BA9544 /* MLBMovieDetails.m in Sources */,
+				23ED65D61D8AD9D700CD9E74 /* MLBReadDetailsQuestionAnswerCell.m in Sources */,
+				23BAAEA61C82AB1D00AA6C87 /* MLBScoreView.m in Sources */,
+				233A76081C9A5B2900D82879 /* MLBUserHomeCell.m in Sources */,
+				23AF41581CC4E43400957DFD /* MLBPreviousViewController.m in Sources */,
+				2357A7611C7D72E70036F7DC /* MLBNoneMessageCell.m in Sources */,
+				2374B3261C8EF53D00E37EDF /* MLBMoviePosterCCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23AA058F1C78A77C0043ACE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23AA05901C78A77C0043ACE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23AA05931C78A77C0043ACE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23AA05941C78A77C0043ACE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23AA05961C78A77C0043ACE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D7F8D6F9DD66A59F51E1A4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyOne3/MyOne3.pch";
+				INFOPLIST_FILE = MyOne3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meilbn.MyOne3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23AA05971C78A77C0043ACE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD56C7CB2A277632076FF04B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyOne3/MyOne3.pch";
+				INFOPLIST_FILE = MyOne3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meilbn.MyOne3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23AA05791C78A77B0043ACE7 /* Build configuration list for PBXProject "MyOne3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AA05931C78A77C0043ACE7 /* Debug */,
+				23AA05941C78A77C0043ACE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23AA05951C78A77C0043ACE7 /* Build configuration list for PBXNativeTarget "MyOne3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AA05961C78A77C0043ACE7 /* Debug */,
+				23AA05971C78A77C0043ACE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23AA05761C78A77B0043ACE7 /* Project object */;
+}
