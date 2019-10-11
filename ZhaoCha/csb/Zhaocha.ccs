@@ -1,0 +1,107 @@
+<Solution>
+  <PropertyGroup Name="Zhaocha" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="common">
+          <Image Name="zc_btn_huang.png" />
+          <Image Name="zc_btn_lv.png" />
+          <Image Name="zc_btn_yuanquan.png" />
+          <Image Name="zc_close_x.png" />
+          <Image Name="zc_img_suotou.png" />
+          <Image Name="zc_img_zhihui.png" />
+          <Image Name="zc_pnl2_diban.png" />
+        </Folder>
+        <Folder Name="gamescene">
+          <Image Name="nl_img_xingxing1.png" />
+          <Image Name="nl_img_xingxing2.png" />
+          <Image Name="zc_bg_beijing.png" />
+          <Image Name="zc_btn_fanhui.png" />
+          <Image Name="zc_btn_tishi.png" />
+          <Image Name="zc_btx_fanhhui.png" />
+          <Image Name="zc_btx_xiayiguan.png" />
+          <Image Name="zc_hl_chenggong.png" />
+          <Image Name="zc_img_guanka.png" />
+          <Image Name="zc_img_liang.png" />
+          <Image Name="zc_img_shengyu.png" />
+          <Image Name="zc_img_xingxing.png" />
+          <Image Name="zc_img_xingxing1.png" />
+          <Image Name="zc_img_zhaodao.png" />
+        </Folder>
+        <Folder Name="levelPic">
+          <Image Name="lv_1.png" />
+          <Image Name="lv_2.png" />
+          <Image Name="lv_3.png" />
+          <Image Name="lv_4.png" />
+          <Image Name="lv_5.png" />
+          <Image Name="lv_6.png" />
+          <Image Name="lv_7.png" />
+          <Image Name="lv_8.png" />
+          <Image Name="lv_9.png" />
+        </Folder>
+        <Folder Name="mainscene">
+          <Image Name="bg_shipei.png" />
+          <Image Name="main_btn_wanfa.png" />
+          <Image Name="zc_bg_ditu.png" />
+          <Image Name="zc_btn_anniu.png" />
+          <Image Name="zc_btx_kaishi.png" />
+          <Image Name="zc_btx_lianxi.png" />
+          <Image Name="zc_btx_paihangbang.png" />
+          <Image Name="zc_hl_fanhui.png" />
+          <Image Name="zc_hl_guanka.png" />
+          <Image Name="zc_hl_guanka_title.png" />
+          <Image Name="zc_hl_moshi.png" />
+          <Image Name="zc_hl_tongji.png" />
+          <Image Name="zc_hl_tujian.png" />
+          <Image Name="zc_hl_xianshi.png" />
+          <Image Name="zc_img_dikuang.png" />
+          <Image Name="zc_img_fen.png" />
+          <Image Name="zc_img_guanka.png" />
+          <Image Name="zc_img_jindutiao1.png" />
+          <Image Name="zc_img_jindutiao2.png" />
+          <Image Name="zc_img_miao.png" />
+          <Image Name="zc_img_shezhi.png" />
+          <Image Name="zc_img_tongji.png" />
+          <Image Name="zc_img_tujian.png" />
+          <Image Name="zc_img_tujian_tj.png" />
+          <Image Name="zc_img_xianshi.png" />
+          <Image Name="zc_img_yinliang.png" />
+          <Image Name="zc_img_yinyue.png" />
+          <Image Name="zc_img_zuigao.png" />
+        </Folder>
+        <Folder Name="pictures">
+          <Image Name="lv_1.png" />
+          <Image Name="lv_2.png" />
+          <Image Name="lv_3.png" />
+          <Image Name="lv_4.png" />
+          <Image Name="lv_5.png" />
+          <Image Name="lv_6.png" />
+          <Image Name="lv_7.png" />
+          <Image Name="lv_8.png" />
+          <Image Name="lv_9.png" />
+          <Image Name="lv_d_1.png" />
+          <Image Name="lv_d_2.png" />
+          <Image Name="lv_d_3.png" />
+          <Image Name="lv_d_4.png" />
+          <Image Name="lv_d_5.png" />
+          <Image Name="lv_d_6.png" />
+          <Image Name="lv_d_7.png" />
+          <Image Name="lv_d_8.png" />
+          <Image Name="lv_d_9.png" />
+        </Folder>
+        <Project Name="FeedBack.csd" Type="Layer" />
+        <Project Name="GameScene.csd" Type="Scene" />
+        <Project Name="HelpLayer.csd" Type="Layer" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Project Name="ModelLayer.csd" Type="Layer" />
+        <Project Name="NoticeTip.csd" Type="Layer" />
+        <Project Name="SelectLevel.csd" Type="Layer" />
+        <Project Name="SettingLayer.csd" Type="Layer" />
+        <Project Name="ShowBgDis.csd" Type="Layer" />
+        <Project Name="SuccessLayer.csd" Type="Layer" />
+        <Project Name="TongjiLayer.csd" Type="Layer" />
+        <Project Name="TujianLayer.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
